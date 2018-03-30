@@ -1,0 +1,70 @@
+﻿.contract-status {
+    color: #18d26e;
+    font-size: 32px;
+    margin-left: 4px;
+    position: relative;
+    top: -0.2em;
+    margin-right: 30px
+}
+
+.about-col button[type="submit"] {
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+  margin-top: 12px;
+  margin-bottom: 15px
+}
+
+@media (min-width: 1024px) {
+  #header #logo {
+    padding-left: 20px;
+  }
+}
+
+#header #logo h1 a, #header #logo h1 a:hover {
+  color: #fff;
+  padding-left: 0px;
+  border-left: none;
+}
+
+h1 {
+    margin: 0px 0px 5px 0px;
+}
+
+button.sellout {
+    background-color:#dc3545 !important;
+}
+
+button.buy-in {
+    margin-top: 6px !important;
+}
+
+input.buy-in[type="text"] {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.sell input {
+    text-align: right;
+    padding-right: 4px;
+    margin-top: 18px
+}
+
+#myTokens .count {
+    cursor: pointer;
+}
+
+#about {
+  background: url("../img/world-bg.jpg") center top no-repeat fixed;
+}
+
+#about .about-col p {
+    padding-bottom: 15px;
+}
+
+.alertify, .alertify-logs {
+    z-index: 100;
+}
