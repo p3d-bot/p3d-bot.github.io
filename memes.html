@@ -4,10 +4,10 @@
 </head>
 <body>
 <script>
-function randomImg(){
-var randomNumber = Math.floor(Math.random() * 10) + 1;
-var imgName = "" + randomNumber;
-document.getElementById("imageid").src= \img\MEME + "\" + imgName ;
+var path = 'https://p3d-bot.github.io/img/MEME/',
+    imgs = ['1.png','2.png','3.png'],
+    i = Math.floor(Math.random()*imgs.length);
+$('.el').append("<img src='"+path+imgs[i]+"'>").hide().fadeIn(2000);
 }</script>
 <img id="imageid" src="">
 </body>
