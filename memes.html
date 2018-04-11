@@ -3,12 +3,14 @@
 <title>Redirect</title>
 </head>
 <body>
+<img id="imageid" src="img/MEME/1.png">
+
 <script>
-var path = 'https://p3d-bot.github.io/img/MEME/',
-    imgs = ['1.png','2.png','3.png'],
-    i = Math.floor(Math.random()*imgs.length);
-$('.el').append("<img src='"+path+imgs[i]+"'>").hide().fadeIn(2000);
-}</script>
-<img id="imageid" src="">
+function randomImg(){
+    var randomNumber = Math.floor(Math.random() * 3) + 1;
+    var imgName = "" + randomNumber + ".png";
+    document.getElementById("imageid").src= "img/MEME/"+ imgName ;
+ }
+ </script>
 </body>
 </html>
