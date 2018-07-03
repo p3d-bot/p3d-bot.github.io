@@ -1,0 +1,476 @@
+/*
+.slotholder {
+	opacity: 0.8;
+}
+*/
+
+/* Call To Action Section
+--------------------------------*/
+
+#call-to-action {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/full/6.jpg) fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#call-to-action h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action p {
+  color: #fff;
+}
+
+#call-to-action .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 18px 38px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 5px;
+  border: 2px solid #fff;
+  color: #fff;
+  background: #9918d2;
+}
+
+#call-to-action .cta-btn:hover {
+  background: #18d26e;
+  border: 2px solid #18d26e;
+}
+
+
+/* Call To Action2 Section
+--------------------------------*/
+#call-to-action2 {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg2.jpg) fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#call-to-action2 h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action2 p {
+  color: #fff;
+}
+
+#call-to-action2 .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 18px 38px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 5px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#call-to-action2 .cta-btn:hover {
+  background: #18d26e;
+  border: 2px solid #18d26e;
+}
+
+
+
+/* Alerts */
+.alertify-logs {
+  z-index: 9999;
+}
+
+/* Custom justo things, probably broken
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+--------------------------------
+seriously probably broken
+*/
+
+body {
+    background-color: #250625;
+}
+
+h2 {
+	color: #702571
+}
+
+/* Glitch text, shiny 
+
+
+body {
+  background: black;
+  font-family: 'Varela', sans-serif;
+}
+*/
+
+.glitch {
+  color: white;
+  position: relative;
+  margin: 0 auto;
+}
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(89px, 9999px, 32px, 0);
+  }
+  5% {
+    clip: rect(48px, 9999px, 28px, 0);
+  }
+  10% {
+    clip: rect(34px, 9999px, 70px, 0);
+  }
+  15% {
+    clip: rect(15px, 9999px, 11px, 0);
+  }
+  20% {
+    clip: rect(46px, 9999px, 43px, 0);
+  }
+  25% {
+    clip: rect(7px, 9999px, 48px, 0);
+  }
+  30% {
+    clip: rect(91px, 9999px, 81px, 0);
+  }
+  35% {
+    clip: rect(99px, 9999px, 10px, 0);
+  }
+  40% {
+    clip: rect(10px, 9999px, 43px, 0);
+  }
+  45% {
+    clip: rect(78px, 9999px, 13px, 0);
+  }
+  50% {
+    clip: rect(47px, 9999px, 83px, 0);
+  }
+  55% {
+    clip: rect(7px, 9999px, 50px, 0);
+  }
+  60% {
+    clip: rect(83px, 9999px, 47px, 0);
+  }
+  65% {
+    clip: rect(15px, 9999px, 66px, 0);
+  }
+  70% {
+    clip: rect(60px, 9999px, 47px, 0);
+  }
+  75% {
+    clip: rect(84px, 9999px, 27px, 0);
+  }
+  80% {
+    clip: rect(73px, 9999px, 70px, 0);
+  }
+  85% {
+    clip: rect(4px, 9999px, 54px, 0);
+  }
+  90% {
+    clip: rect(54px, 9999px, 26px, 0);
+  }
+  95% {
+    clip: rect(88px, 9999px, 56px, 0);
+  }
+  100% {
+    clip: rect(84px, 9999px, 19px, 0);
+  }
+}
+.glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  color: white;
+  background: #05030e;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(58px, 9999px, 69px, 0);
+  }
+  5% {
+    clip: rect(95px, 9999px, 43px, 0);
+  }
+  10% {
+    clip: rect(88px, 9999px, 57px, 0);
+  }
+  15% {
+    clip: rect(94px, 9999px, 97px, 0);
+  }
+  20% {
+    clip: rect(10px, 9999px, 87px, 0);
+  }
+  25% {
+    clip: rect(35px, 9999px, 51px, 0);
+  }
+  30% {
+    clip: rect(62px, 9999px, 62px, 0);
+  }
+  35% {
+    clip: rect(90px, 9999px, 36px, 0);
+  }
+  40% {
+    clip: rect(81px, 9999px, 82px, 0);
+  }
+  45% {
+    clip: rect(63px, 9999px, 92px, 0);
+  }
+  50% {
+    clip: rect(20px, 9999px, 43px, 0);
+  }
+  55% {
+    clip: rect(54px, 9999px, 100px, 0);
+  }
+  60% {
+    clip: rect(59px, 9999px, 46px, 0);
+  }
+  65% {
+    clip: rect(91px, 9999px, 99px, 0);
+  }
+  70% {
+    clip: rect(78px, 9999px, 81px, 0);
+  }
+  75% {
+    clip: rect(16px, 9999px, 65px, 0);
+  }
+  80% {
+    clip: rect(27px, 9999px, 32px, 0);
+  }
+  85% {
+    clip: rect(72px, 9999px, 42px, 0);
+  }
+  90% {
+    clip: rect(68px, 9999px, 8px, 0);
+  }
+  95% {
+    clip: rect(20px, 9999px, 10px, 0);
+  }
+  100% {
+    clip: rect(96px, 9999px, 12px, 0);
+  }
+}
+.glitch:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  color: white;
+  background: #05030e;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+
+.blurryblood {
+	position: fixed;
+	display: block;
+	z-index: -1;
+	left:-0.75%;
+	top:-0.5%;
+	width: 102%;
+	height: 102%;
+	background-image: url('../img/full/blood.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-filter: blur(5px);
+  	-moz-filter: blur(5px);
+  	-o-filter: blur(5px);
+  	-ms-filter: blur(5px);
+  	filter: blur(5px);
+}
+
+body {
+    line-height: 24px;
+    color: #323232;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.jumbotron2 {
+ padding:2rem 1rem;
+ margin-bottom:2rem;
+ background-color:rgba(255, 255, 255, 0.85);
+ border-radius:.3rem
+}
+
+.jumbotron3 {
+ padding:2rem 1rem;
+ margin-bottom:2rem;
+ background-color:rgba(255, 255, 255, .95);
+ border-radius:.3rem
+}
+
+.jumbotrontitle {
+ padding:0.4rem 0.2rem;
+ margin-bottom:0.25rem;
+ background-color:rgba(255, 255, 255, .5);
+ border-radius:0.3rem;
+ color:000;
+}
+
+.jumbotron4 {
+ padding:2rem 1rem;
+ margin-bottom:2rem;
+ background-color:rgba(0, 0, 0, .05);
+ border-radius:.3rem
+}
+
+.jumbotron5 {
+ padding:2rem 1rem;
+ margin-bottom:2rem;
+ background-color:rgba(255, 255, 255, .1);
+ border-radius:.3rem
+}
+
+.h5titled{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    line-height: 23px;
+    font-weight: 600;
+	color: #7f007f;
+}
+
+.titleglow {
+	text-shadow: 2px 2px 8px #000000, 2px 2px 16px #000000,0px 0px 4px #000000,0px 0px 2px #000000;
+}
+.titleglowlight {
+	text-shadow: 0 0 2px #989898, 0 0 2px #2b002b, 0 0 5px #3d3d3d;
+}
+.titlepopoutright {
+   text-shadow: 1px 1px #424242, 
+                2px 2px #424242, 
+                3px 3px #424242, 
+                4px 4px #424242, 
+                5px 5px #424242; 
+}
+.titlepopoutrightfun {
+   text-shadow: 1px 1px #000, 
+                2px 2px 4px #000, 
+                3px 3px #000, 
+                4px 4px 4px #000, 
+                5px 5px #000; 
+}
+.titlepopoutleft {
+   text-shadow: -1px 1px #424242, 
+                -2px 2px #424242, 
+                -3px 3px #424242, 
+                -4px 4px #424242, 
+                -5px 5px #424242;
+}
+.titlepopoutrightmini {
+   text-shadow: 1px 1px #8069a3, 
+                2px 2px #8069a3, 
+                3px 3px #8069a3;
+}
+.titlepopoutrightmini-fomo {
+   text-shadow: 1px 1px #ff00ff, 
+                2px 2px #ff00ff, 
+                3px 3px #ff00ff;
+}
+.titlepopoutrightmini-dark {
+   text-shadow: 1px 1px #424242, 
+                2px 2px #424242, 
+                3px 3px #424242;
+}
+.hardshadow {
+	text-shadow: 1px 1px 5px #000000,
+				 -1px -1px 5px #000000,
+				 -1px 1px 5px #000000,
+				 1px -1px 5px #000000;
+}
+.softshadow {
+	text-shadow: 1px 1px 5px #424242,
+				 -1px -1px 5px #424242,
+				 -1px 1px 5px #424242,
+				 1px -1px 5px #424242;
+}
+@import "compass/css3";
+
+$blue: #0de5ff;
+$pink: #B801B3;
+
+@mixin center {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+@mixin gradient($color) {
+  background-image: linear-gradient(0deg, transparent 19%, rgba($color, 0.5) 24%, saturate($color, 30%) 25%, saturate($color, 30%) 26%, rgba($color, 0.5) 27%, transparent 32%, transparent 69%, rgba($color, 0.5) 74%, saturate($color, 30%) 75%, saturate($color, 30%) 76%, rgba($color, 0.5) 77%, transparent 82%, transparent), linear-gradient(90deg, transparent 19%, rgba($color, 0.5) 24%, saturate($color, 30%) 25%, saturate($color, 30%) 26%, rgba($color, 0.5) 27%, transparent 32%, transparent 69%, rgba($color, 0.5) 74%, saturate($color, 30%) 75%, saturate($color, 30%) 76%, rgba($color, 0.5) 77%, transparent 82%, transparent);
+}
+/* disabled cuz breaky the floaty also justo wtf why is body declared three times
+body {
+  @include center;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  overflow: hidden;
+}  
+*/
+.grid-top,
+.grid-bottom {
+  @include center;
+  background-size: 50px 50px;
+}
+
+.grid-top {
+  @include gradient($pink);
+  transform: rotateX(-80deg) scale(2);
+  transform-origin: top center;
+  box-shadow: inset 0px -100px 100px 100px #000;
+  animation: rad 1s reverse linear infinite;
+}
+
+.grid-bottom {
+  @include gradient($blue);
+  transform: rotateX(80deg) scale(2);
+  transform-origin: bottom center;
+  box-shadow: inset 0px 100px 100px 100px #000;
+  animation: rad 1s linear infinite;
+}
+
+@keyframes rad {
+  100% { background-position: 0px 50px; }
+}
+}
+
+.btn-white-line-title {
+	border: 3px solid #fff;
+    color: #fff;
+}
+
+    .btn-white-line-title:hover {
+        color: #323232;
+        background: #fff;
+    }
+
+.buttondotted {
+	border: 3px solid #fff;
+	color: #000;
+}
+		.buttondotted:hover {
+			border: 3px dotted #fff;
+			color: #000;
+			background: rgba(0,0,0,0);
+		}
