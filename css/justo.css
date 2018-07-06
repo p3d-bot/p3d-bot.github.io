@@ -1,0 +1,409 @@
+/* general declarations, unsorted */
+.brand-logo {
+	height: 3rem;
+}
+.monstarrat{
+	font-family: 'Montserrat', sans-serif;
+}
+.domo {
+	font-family: 'Roboto', sans-serif;
+}
+.poppins {
+	font-family: 'Poppins', sans-serif;
+}
+.btn {
+	padding: .2rem;
+	margin: .2rem;
+	line-height: .7;
+	float: none;
+}
+.btnpad{
+	padding: .8rem;
+}
+.killmargin {
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+}
+.putbackmargin{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.putbackmargin2{
+	margin-left: .5rem;
+	margin-right: .5rem;
+}
+a:hover{
+	color:#f0f;
+}
+.yellowtext{
+	color:#e6ae49;
+}
+
+.header {
+	font-size: 6rem;
+	font-weight:200;
+	color:white;
+}
+.memetext {
+	font-size: 2rem;
+	font-weight:300;
+}
+.h1s {
+	color: white;
+	filter: drop-shadow(0 0 2px #2b002b) drop-shadow(0 0 10px #c0c) drop-shadow(0 0 5px #f0f);
+	-webkit-filter: drop-shadow(0 0 2px #2b002b) drop-shadow(0 0 10px #c0c) drop-shadow(0 0 5px #f0f);
+}
+.h1s-light {
+	color: white;
+	filter: drop-shadow(0 0 1px #2b002b) drop-shadow(0 0 2px #c0c) drop-shadow(0 0 1px #f0f);
+	-webkit-filter: drop-shadow(0 0 1px #2b002b) drop-shadow(0 0 2px #c0c) drop-shadow(0 0 1px #f0f);
+}
+.titlepopoutrightmini{
+   text-shadow: 1px 1px #9d009d, 
+                2px 2px #9d009d, 
+                3px 3px #9d009d;
+}
+
+.center {
+    margin: 0;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a:hover{
+	text-decoration:none;
+}
+
+.pulse{
+  animation:pulse 0.75s infinite;
+}
+.pulsewhiteup{
+  animation:pulsewhite 0.75s 10;
+}
+
+
+/* pulse effect */
+/* pulse effect */
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,0,204, 0.8);
+    box-shadow: 0 0 0 0 rgba(204,0,204, 0.8);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 5px rgba(204,0,204, 0.3);
+      box-shadow: 0 0 0 5px rgba(204,0,204, 0.3);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,0,204, 0);
+      box-shadow: 0 0 0 10px rgba(204,0,204, 0);
+  }
+}
+/* white pulse effect to get people to scroll down */
+@keyframes pulsewhite {
+  0% {
+    -moz-box-shadow: -400 0 0 50 rgba(255,255,255, 0.2);
+    box-shadow: -400 0 0 50 rgba(255,255,255, 0.2);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 150px rgba(255,255,255, 0.05);
+      box-shadow: 0 0 0 150px rgba(255,255,255, 0.05);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 200px rgba(255,255,255, .005);
+      box-shadow: 0 0 0 200px rgba(255,255,255, .005);
+  }
+}
+/* blue pulse for fomo3d slow mode */
+@keyframes pulseblu {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(0,199,255, 0.8);
+    box-shadow: 0 0 0 0 rgba(0,199,255, 0.8);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 5px rgba(0,199,255, 0.3);
+      box-shadow: 0 0 0 5px rgba(0,199,255, 0.3);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 10px rgba(0,199,255, 0);
+      box-shadow: 0 0 0 10px rgba(0,199,255, 0);
+  }
+}
+/* pulse effect for tutorialarrows */
+@keyframes pulsedrop {
+  0% {
+    filter: drop-shadow(0 0 0 rgba(204,0,204, 0.8));
+    -webkit-filter: drop-shadow(0 0 0 rgba(204,0,204, 0.8));
+    left:-0.1rem;
+    color: #f0f;
+  }
+  50% {
+    left:-0.5rem;
+  }
+  70% {
+      filter: drop-shadow(0 0 25px rgba(204,0,204, 0.6));
+      -webkit-filter: drop-shadow(0 0 25px rgba(204,0,204, 0.6));
+  }
+  100% {
+      filter: drop-shadow(0 0 40px rgba(204,0,204, 0));
+      -webkit-filter: drop-shadow(0 0 40px rgba(204,0,204, 0));
+      left:-0.1rem;
+  }
+}
+
+
+/* pulse effect */
+/* pulse effect */
+
+
+/* ENCASE EVERYTHING IN JUMBOTRONS */
+/* ENCASE EVERYTHING IN JUMBOTRONS */
+
+.jumboshade {
+	box-shadow: 0 0 2px #22252a;
+}
+.jumbotron-adjust {
+	padding: 1rem !important;
+}
+.jumbotron2 {
+ padding:1rem 1rem;
+ margin-bottom:1rem;
+ background-color:rgba(255, 255, 255, 0.85);
+ border-radius:.3rem;
+}
+.jumbotron3 {
+ padding:1rem 1rem;
+ margin-bottom:1rem;
+ margin-top:1rem;
+ background-color:rgba(255, 255, 255, 0.85);
+ border-radius:.3rem;
+}
+.jumbotron4 {
+ padding:2rem 1rem;
+ margin-bottom:2rem;
+ background-color:rgba(0, 0, 0, .05);
+ border-radius:.3rem
+}
+
+/* ENCASE EVERYTHING IN JUMBOTRONS */
+/* ENCASE EVERYTHING IN JUMBOTRONS */
+
+ .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  
+  
+  
+  
+  
+  .btn-viol {
+	color:#00d400;
+	/*! text-shadow: 0 0 2px #1e511e; */
+}
+.btn-viol:hover, .btn-viol.active{
+	background-color: #0ef70e;
+	box-shadow: 0 0 2px #1e511e, 0 0 25px #2cb32c, 0 0 5px #00ff00;
+	text-shadow: 0 0 2px #1e511e;
+	color:white;
+}
+
+
+/* Interesting modifier */
+/* Removing the initial button logo but leaving the pulse and hover. */
+.btn-blu2 {
+	color:#4fd8ff;
+}
+.btn-blu2:hover, .btn-blu2.active{
+	background-color: #007eff;
+	box-shadow: 0 0 2px #1e4d51, 0 0 25px #00bbcc, 0 0 5px #00ffe8;
+	text-shadow: 0 0 2px #1e4d51;
+	color:white;
+}
+.btn-purp2 {
+	color:#f000f0;
+}
+.btn-purp2:hover, .btn-purp2.active{
+	background-color: #4fd8ff;
+	box-shadow: 0 0 2px #2b002b, 0 0 25px #c0c, 0 0 5px #f0f;
+	text-shadow: 0 0 2px #2b002b;
+	color:white;
+}
+
+/* AKA JUSTO STOP BREAKING THINGS THE BUTTONS THIS TIME */
+
+.btn-purp {
+	color:white;
+	background-color: #f000f0;
+}
+.btn-purp:hover, .btn-purp.active{
+	background-color: #ff4fff;
+	box-shadow: 0 0 2px #2b002b, 0 0 25px #c0c, 0 0 5px #f0f;
+	text-shadow: 0 0 2px #2b002b;
+	color:white;
+}
+
+.btn-blu {
+	color:white;
+	background-color: #00aeff;
+}
+.btn-blu:hover, .btn-blu.active{
+	background-color: #5491ff;
+	box-shadow: 0 0 2px #2b002b, 0 0 25px #c0c, 0 0 5px #f0f;
+	text-shadow: 0 0 2px #2b002b;
+	color:white;
+}
+.pulse-blu{
+  animation:pulseblu 5s infinite;
+}
+.pulse-purp{
+  animation:pulse 5s infinite;
+}
+
+.btn-gren {
+	color:white;
+	background-color: #307b30;
+}
+.btn-gren:hover, .btn-gren.active{
+	background-color: #00b000;
+	box-shadow: 0 0 2px #2b002b, 0 0 25px #c0c, 0 0 5px #f0f;
+	text-shadow: 0 0 2px #2b002b;
+	color:white;
+}
+
+.buttontxt{
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-bottom: .5rem;
+	padding-top: 1.5rem;
+	font-size: 1.5vw;
+	line-height: .3;
+	letter-spacing: .1rem;
+	font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+.btn-outline-purp {
+  color:#702571;
+  background-color: transparent;
+  border: 1px solid #702571;
+}
+.btn-outline-purp:hover, .btn-outline-purp.active {
+  color:white;
+  background-color: #702571;
+}
+.btn-outline-yel {
+  color:#e6ae49;
+  background-color: transparent;
+  border: 1px solid #e6ae49;
+}
+.btn-outline-yel:hover {
+  color:white;
+  background-color: #e6ae49;
+}
+
+
+/* STUFF FOR RESPONSIVE CONTAINERS ON SHILL KIT */
+/* STUFF FOR RESPONSIVE CONTAINERS ON SHILL KIT */
+
+.container-filter {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+}
+
+    .container-filter li {
+        list-style: none;
+        display: inline-block;
+    }
+
+        .container-filter li a {
+            display: block;
+            margin-left: 15px;
+            margin-right: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            /*! font-size: 12px; */
+            /*! font-weight: 600; */
+            font-family: 'Raleway', sans-serif;
+        }
+
+            .container-filter li a.active {
+                color: #e6ae49;
+            }
+ .item-box {
+    position: relative;
+    display: block;
+}
+
+    .item-box a {
+        display: inline-block;
+    }
+
+    .item-box:hover .item-mask {
+        opacity: 1;
+        visibility: visible;
+    }
+
+        .item-box:hover .item-mask .item-caption {
+            bottom: 30px;
+            opacity: 1;
+        }
+
+    .item-box:hover .item-container {
+        transform: scale(1.1);
+        transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+        width: 100%;
+    }
+	
+.nf-item{
+}
+.smol {
+	position:relative;
+	width: 100%;
+	max-height: 350px;
+}
+
+.aff {
+    display:none;
+    margin-top:10x;
+    padding-top:0px;
+    padding-bottom:10px;
+    text-align: center;
+    color: white;
+    background:rgba(55,125,230,0.39);
+}
+
+.aff code {
+  background: rgba(0,0,0,0.61);
+  padding-left:50px;
+  padding-right:50px;
+  font-size:2rem;
+}
+
+*row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* STUFF FOR RESPONSIVE CONTAINERS ON SHILL KIT */
+/* STUFF FOR RESPONSIVE CONTAINERS ON SHILL KIT */
+

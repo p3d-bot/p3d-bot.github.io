@@ -1,0 +1,196 @@
+/* ===================================================================================================== */
+/* Contants (Portfolio, Blog, Shop, etc) -------------------  */
+/* ===================================================================================================== */
+.col.container-grid {
+    padding-left:0;
+    padding-right:0;
+}
+.col.container-masonry {
+    padding-left:0;
+    padding-right:0;
+}
+.container.nf-container1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container.nf-container2 {
+    /*padding-left: 25px;
+    padding-right: 25px;*/
+}
+
+.nf-row1 {
+    margin-left: -15px;
+    margin-right: -15px;
+    /*overflow: hidden;*/
+}
+
+.nf-col-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.nf-row2 {
+    /*margin-left: -25px;
+    margin-right: -25px;*/
+}
+
+    .nf-row1:before, .nf-row1:after, .nf-row2:before, .nf-row2:after {
+        display: table;
+        content: " ";
+    }
+
+    .nf-row1:after, .nf-row2:after {
+        clear: both;
+    }
+
+.nf-row1 .nf-item.spacing, .nf-row1 .grid-sizer.spacing {
+    padding: 15px;
+}
+
+
+.nf-row2 .nf-item.spacing, .nf-item.spacing, .nf-row2 .grid-sizer.spacing, .spacing-box {
+    padding: 25px;
+}
+
+.spacing-grid {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nf-col-1 .nf-item, .nf-col-1 .grid-sizer {
+    width: 100%;
+    min-height: 1px;
+}
+
+.nf-col-2 .nf-item, .nf-col-2 .grid-sizer {
+    width: 50%;
+    min-height: 1px;
+}
+
+.nf-col-3 .nf-item, .nf-col-3 .grid-sizer {
+    width: 33.3333%;
+    min-height: 1px;
+}
+
+.nf-col-4 .nf-item, .nf-col-4 .grid-sizer {
+    width: 25%;
+    min-height: 1px;
+}
+
+.nf-col-5 .nf-item, .nf-col-5 .grid-sizer {
+    width: 20%;
+    min-height: 1px;
+}
+
+.nf-col-6 .nf-item, .nf-col-6 .grid-sizer {
+    width: 16.6666%;
+    min-height: 1px;
+}
+
+.nf-col-1 .nf-item.w1, .nf-col-2 .nf-item.w1, .nf-col-3 .nf-item.w1, .nf-col-4 .nf-item.w1 {
+    width: 100%;
+}
+
+.nf-col-1 .nf-item.w2, .nf-col-2 .nf-item.w2, .nf-col-3 .nf-item.w2, .nf-col-4 .nf-item.w2 {
+    width: 50%;
+}
+
+.nf-col-1 .nf-item.w3, .nf-col-2 .nf-item.w3, .nf-col-3 .nf-item.w3, .nf-col-4 .nf-item.w3 {
+    width: 33.3333%;
+}
+
+.nf-col-1 .nf-item.w4, .nf-col-2 .nf-item.w4, .nf-col-3 .nf-item.w4, .nf-col-4 .nf-item.w4 {
+    width: 25%;
+}
+
+.nf-col-1 .nf-item.w4-2, .nf-col-2 .nf-item.w4-2, .nf-col-3 .nf-item.w4-2, .nf-col-4 .nf-item.w4-2,
+.nf-col-1 .nf-item.w3-2, .nf-col-2 .nf-item.w3-2, .nf-col-3 .nf-item.w3-2, .nf-col-4 .nf-item.w3-2 {
+    width: 50%;
+}
+
+.nf-col-1 .nf-item.w4-1, .nf-col-2 .nf-item.w4-1, .nf-col-3 .nf-item.w4-1, .nf-col-4 .nf-item.w4-1 {
+    width: 75%;
+}
+
+.nf-col-1 .nf-item.w3-1, .nf-col-2 .nf-item.w3-1, .nf-col-3 .nf-item.w3-1, .nf-col-4 .nf-item.w3-1 {
+    width: 66.6666%;
+}
+
+@media (max-width: 991px) {
+    .nf-col-2 .nf-item, .nf-col-3 .nf-item, .nf-col-4 .nf-item,
+    .nf-col-1 .nf-item.w2, .nf-col-2 .nf-item.w2, .nf-col-3 .nf-item.w2, .nf-col-4 .nf-item.w2,
+    .nf-col-1 .nf-item.w3, .nf-col-2 .nf-item.w3, .nf-col-3 .nf-item.w3, .nf-col-4 .nf-item.w3,
+    nf-col-1 .nf-item.w4, .nf-col-2 .nf-item.w4, .nf-col-3 .nf-item.w4, .nf-col-4 .nf-item.w4,
+    .nf-col-1 .nf-item.w4-1, .nf-col-2 .nf-item.w4-1, .nf-col-3 .nf-item.w4-1, .nf-col-4 .nf-item.w4-1,
+    .nf-col-1 .nf-item.w3-1, .nf-col-2 .nf-item.w3-1, .nf-col-3 .nf-item.w3-1, .nf-col-4 .nf-item.w3-1 {
+        width: 50%;
+    }
+
+    .nf-col-5 .nf-item, .nf-col-6 .nf-item {
+        width: 33.3333%;
+    }
+
+
+
+    .nf-row2 .nf-item.spacing, .nf-row2 .grid-sizer.spacing {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container {
+        margin: 0 auto;
+        max-width: 480px;
+        width: 100%;
+    }
+
+    .nf-col-padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .spacing-grid {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    .nf-col-2 .nf-item, .nf-col-3 .nf-item, .nf-col-4 .nf-item,
+    .nf-col-1 .nf-item.w2, .nf-col-2 .nf-item.w2, .nf-col-3 .nf-item.w2, .nf-col-4 .nf-item.w2,
+    .nf-col-1 .nf-item.w3, .nf-col-2 .nf-item.w3, .nf-col-3 .nf-item.w3, .nf-col-4 .nf-item.w3,
+    nf-col-1 .nf-item.w4, .nf-col-2 .nf-item.w4, .nf-col-3 .nf-item.w4, .nf-col-4 .nf-item.w4,
+    .nf-col-1 .nf-item.w4-1, .nf-col-2 .nf-item.w4-1, .nf-col-3 .nf-item.w4-1, .nf-col-4 .nf-item.w4-1,
+    .nf-col-1 .nf-item.w3-1, .nf-col-2 .nf-item.w3-1, .nf-col-3 .nf-item.w3-1, .nf-col-4 .nf-item.w3-1 {
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .nf-col-3, .nf-col-4 {
+        margin: 0 auto;
+        max-width: 480px;
+    }
+
+    .nf-col-5 .nf-item, .nf-col-6 .nf-item {
+        width: 100%;
+    }
+
+    .nf-row2 .nf-item.spacing, .nf-row1 .nf-item.spacing, .spacing-box {
+        padding: 15px;
+    }
+
+    .xs-hidden {
+        visibility: hidden !important;
+        display: none !important;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .nf-col-5 .nf-item, .nf-col-6 .nf-item {
+        width: 100%;
+    }
+}
