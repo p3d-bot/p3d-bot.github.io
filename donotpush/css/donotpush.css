@@ -1,0 +1,65 @@
+body {
+	background-color: #FFFFFF;
+	padding: 0;
+	height: 100%;
+	text-align: center;
+	font-family: 'Geo';
+    font-weight: normal;
+    font-style: normal;	
+	font-size: 2vw;
+	line-height: 1vw;
+	letter-spacing: 0.125vw;
+	text-transform: none;
+	overflow-y: scroll;
+}
+.small {
+	font-size: 0.5em;
+	line-height: 0;
+	vertical-align: top;
+}
+.medium {
+	font-size: 1.25em;
+	line-height: 1.25em;
+}
+.big  {
+	font-size: 2em;
+	line-height: 1em;
+	
+}
+.grey {
+	color: #555555
+}
+
+
+image {
+	border: 0;
+	padding: 0;
+	hspace: 0;
+}
+input[type=text] {
+	width: 2em;
+	height: 1em;
+	border-style: solid;
+	border-color: #303030;
+	border-width: 0.01em;
+	border-radius: 0;
+	font-family: 'Geo';
+    font-weight: normal;
+    font-style: normal;
+	font-size: 1em;
+	
+	color: #000000;
+	text-transform: lowercase;
+}
+button {
+	width: 4em;
+	border: 0;
+	font-family: 'Geo';
+    font-weight: normal;
+    font-style: normal;
+	font-size: 1em;
+	color: #303030;
+}
+#DoNotPush {
+	cursor: pointer;
+}

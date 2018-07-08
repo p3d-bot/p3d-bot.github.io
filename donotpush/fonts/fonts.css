@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Geo';
+    src: url('Geo-Regular.eot');
+    src: url('Geo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Geo-Regular.woff2') format('woff2'),
+        url('Geo-Regular.woff') format('woff'),
+        url('Geo-Regular.ttf') format('truetype'),
+        url('Geo-Regular.svg#Geo-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geo';
+    src: url('Geo-Oblique.eot');
+    src: url('Geo-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('Geo-Oblique.woff2') format('woff2'),
+        url('Geo-Oblique.woff') format('woff'),
+        url('Geo-Oblique.ttf') format('truetype'),
+        url('Geo-Oblique.svg#Geo-Oblique') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Park Lane NF';
+    src: url('ParkLaneNF.eot');
+    src: url('ParkLaneNF.eot?#iefix') format('embedded-opentype'),
+        url('ParkLaneNF.woff2') format('woff2'),
+        url('ParkLaneNF.woff') format('woff'),
+        url('ParkLaneNF.ttf') format('truetype'),
+        url('ParkLaneNF.svg#ParkLaneNF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Park Lane NF';
+    src: url('ParkLaneNF_1.eot');
+    src: url('ParkLaneNF_1.eot?#iefix') format('embedded-opentype'),
+        url('ParkLaneNF_1.woff2') format('woff2'),
+        url('ParkLaneNF_1.woff') format('woff'),
+        url('ParkLaneNF_1.ttf') format('truetype'),
+        url('ParkLaneNF_1.svg#ParkLaneNF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GangueOuais';
+    src: url('GangueOuais.eot');
+    src: url('GangueOuais.eot?#iefix') format('embedded-opentype'),
+        url('GangueOuais.woff2') format('woff2'),
+        url('GangueOuais.woff') format('woff'),
+        url('GangueOuais.ttf') format('truetype'),
+        url('GangueOuais.svg#GangueOuais') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

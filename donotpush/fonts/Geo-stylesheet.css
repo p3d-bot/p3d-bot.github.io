@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Geo';
+    src: url('Geo-Regular.eot');
+    src: url('Geo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Geo-Regular.woff2') format('woff2'),
+        url('Geo-Regular.woff') format('woff'),
+        url('Geo-Regular.ttf') format('truetype'),
+        url('Geo-Regular.svg#Geo-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geo';
+    src: url('Geo-Oblique.eot');
+    src: url('Geo-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('Geo-Oblique.woff2') format('woff2'),
+        url('Geo-Oblique.woff') format('woff'),
+        url('Geo-Oblique.ttf') format('truetype'),
+        url('Geo-Oblique.svg#Geo-Oblique') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+

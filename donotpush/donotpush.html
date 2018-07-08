@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UI-Compatible" content="ie-edge">
+	<title>DO NOT PUSH</title>
+	
+	<link rel="stylesheet" type="text/css" href="./fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="./css/donotpush.css">
+</head>
+
+<body align=center>
+	
+	<button id="refreshData" class="medium">refresh</button><br>
+	<span class="big">Balance: <span id="balance_trunc" class="grey"></span></span><br>
+	<span id="balance_full" class="small"></span>
+	
+	
+	<img id="DoNotPush" src="./img/redbutton.jpg" width=25% height=25%><br>
+	<span class="big"><label for="Percent">ENTER<input type=text id="Percent" placeholder="1-99" onKeyUp="numbersOnly(this)">%</label></span>
+
+
+	<!-- scripts -->
+	<script src="./js/web3.min.js"></script>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/abi.js"></script>
+	<script src="./js/donotpush.js"></script>
+</body>
+</html>
