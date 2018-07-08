@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Countdown to Fomo3D Mainnet</title>
+	<meta name="google-site-verification" content="Lp9n0hMaQuS41BzR4VuNRQX9ivFz3poA_ijKN__6IPI" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script>
+    /*
+     .d888                              .d8888b.      888 
+    d88P"                              d88P  Y88b     888 
+    888                                     .d88P     888 
+    888888 .d88b. 88888b.d88b.  .d88b.     8888"  .d88888 
+    888   d88""88b888 "888 "88bd88""88b     "Y8b.d88" 888 
+    888   888  888888  888  888888  888888    888888  888 
+    888   Y88..88P888  888  888Y88..88PY88b  d88PY88b 888 
+    888    "Y88P" 888  888  888 "Y88P"  "Y8888P"  "Y88888 
+     */
+  </script>
+  <body id="particles-js" style="overflow: hidden;">
+  <!-- <div class="col-md-2 discord2" id="sound-btn"><a><i class="fa fa-play"></i></a></div> -->
+    <div class="wrapper">
+     <p class="testnet">Mainnet</p>
+     <h1 id="timer">00:00:00</h1>
+     <h2>Fomo3D</h2>
+
+    <svg style="z-index:-1" height="320" width="400" class="logo-triangle">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(50,50,50);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:black;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <filter id="dropshadow" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+            <feOffset dx="2" dy="2" result="offsetblur" />
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <polygon points="0,0 400,0 200,300" stroke="#36e2f8" stroke-width="3" />
+    </svg>
+</div>
+<div class="discord col-md-2">
+  <a href="https://discord.gg/4s8bYWE">
+    <i class="fab fa-discord"></i>
+  </a>
+</div>
+<div  class="container" style="margin-top:5rem;">
+	<div class="row">
+		<div class="col">
+			<button class="btn btn-purp btn-lg btn-block vanity">
+			<b>Reserve a Name:</b> Earn passive <b class=titlepopoutrightmini>Eth <i class="fab fa-ethereum"></i></b><span class="smallscreenhide"> income the moment the game starts!</span>
+			</button>
+		</div>
+	</div>
+  <div class="row aff">
+    <div class="col">
+      <h3>Your 10% commission affiliate link</h3>
+      <code id="link">https://</code> <button data-clipboard-target="#link" class="btn btn-purp">Copy</button>
+    </div>
+  </div>
+</div>
+<div>
+<div class="row">
+  <a class="countdown" href="https://p3d-bot.github.io/advice-kit.html"><p class="blink"  id="discord2">Click me: I'll help you accumulate an army</p></a>
+  </div>
+</div>
+
+<!-- modal vanity v1.0 -->
+	  <div class="modal fade" id="vanity" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content bg-dark text-light">
+			<div class="modal-body" style="padding-top:1.5rem; padding-bottom:1.5rem;">
+			<!-- Name chooser -->
+			<div class="row">
+			  <div class="col">
+				<p class="lead nomarginb">Reserve your Fomo3D Name:</p>
+				<p>Reserving your name <b>unlocks a custom referral link</b>
+				<br><br>
+				<span class=h1s-light>10%</span> of anything you encourage others to waste in our game, is rewarded to you instantly, as <b class=titlepopoutrightmini>Eth <i class="fab fa-ethereum"></i></b> that you can withdraw at any time.
+				<br>
+				<span style="color:#0f0" class="lead "><br>Referrals to this page are tracked!</span>
+				<br>				
+				<br>
+				<span class=yellowtext>When the game starts you'll instantly start earning passive income for as long as they play! <b>10 eth into the pot, is 1 eth in your pocket!</b></span></p>
+			  </div>
+			  <div class="col-auto">
+				<p class="text-right nomarginb">
+				  <a href="#" class="closemodal">
+					<i class="fas fa-times"></i>
+				  </a>
+				</p>
+			  </div>
+			</div>
+			<hr>
+			<div class="row">
+			  <div class="col">
+			<div class="row">
+			  <div class="col">
+				<div class="input-group mb-3">
+				  <input class="form-control text-center" type="text" placeholder="type here" id="nameString">
+				</div>
+			  </div>
+			</div>
+				<p class="small">
+				<br>
+				Names must follow these rules:<br>
+				-Must be unique <i><a href="https://fomo3d.eu/">database of all names</a></i><br>
+				-32 Characters or Less<br>
+				-A-Z (upper and lowercase)<br>
+				-Name cannot be <i>just</i> numbers, but numbers are allowed<br>
+				-No special characters<br>
+				-No more than one space between characters<br>
+				<br>
+				If the transaction fails, one of these criteria was not met properly. <br>
+				<br>
+				Names are yours permanently (for vanity URLS). But only your most recent name will show up on the leaderboard/game UI. You can own as many names as you'd like.<br><br>
+				
+				Other players will frequently see your name as they challenge you for the final exit scam, make it good. They'll be jealous when you win!
+				
+				</p>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col">
+				<button class="btn btn-purp btn-block btn-lg buyXname" id="buyXname"><i class="fab fa-ethereum"></i> Purchase for 0.01 ETH</button>
+				<p style="font-size:0.7rem;color:#afafaf"> The fee is distributed across community members who made this game possible.</p>
+			  </div>
+			</div>
+			<!-- /Name chooser -->
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <!-- /modal vanity -->
+
+	  
+<audio id="resonance" loop autoplay preload>
+	<source src="song.mp3" type="audio/mpeg">
+</audio>	  
+
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="js/particles.js" type="text/javascript"></script>
+<script src="js/clipboard.min.js"></script>
+	
+	<script src="./js/abi.js"></script>
+	
+	<script src="./js/connectToPlayerbook.js"></script>
+<script>
+// Countdown
+
+var countDownDate = 1531083600000
+
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var days = days < 10 ? "0" + days : days;
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var hours = hours < 10 ? "0" + hours : hours;
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var minutes = minutes < 10 ? "0" + minutes : minutes;
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  var seconds = seconds < 10 ? "0" + seconds : seconds;
+  
+
+  document.getElementById("timer").innerHTML = days + ":" + hours + ":"
+  + minutes + ":" + seconds;
+
+  if (distance <= 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "JUST";
+    document.getElementById("timer").classList.add("blink");;
+  }
+}, 1000);
+
+var audio = document.getElementById("resonance");
+audio.volume = 0.5;
+
+// Vanity modal
+jQuery(".vanity").click(function(){
+  jQuery('#vanity').modal()
+})
+jQuery(".closemodal").click(function(){
+  jQuery('#vanity').modal('hide')
+})
+
+// Random Name generator
+jQuery('#randomName').click(function(){
+  jQuery('#nameInput').val(namegen.generate());
+})
+
+localStorage.setItem("masternode", window.location.pathname.replace("/", ""))
+
+namegen = function(){
+	console.log("mantser pls grab from namegenerator.js from f3d-game-site or remove function")
+}
+
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+	var masternode = getURL(window.location.search.substring(1)).daddy;
+	if(masternode) localStorage.setItem("masternode", masternode)
+});
+<!-- document.querySelector('discord2').addEventListener('click', function() { -->
+  <!-- context.resume().then(() => {} -->
+  
+  
+  
+  <!-- function init() { -->
+	
+	<!-- $("#sound-btn").click(toggleSound); -->
+
+	<!-- $.ajax({ -->
+		<!-- url: "json/bg.json", -->
+		<!-- cache: false, -->
+		<!-- dataType: "json", -->
+		<!-- success: function(d){ -->
+			<!-- gif_bgs = d; -->
+			<!-- length_bgs = gif_bgs.length; -->
+			<!-- loaded++; -->
+			<!-- check(); -->
+		<!-- } -->
+	<!-- }) -->
+	<!-- }; -->
+
+
+
+
+function getURL(query) {
+  var vars = query.split("&");
+  var query_string = {};
+  for (var i = 0; i < vars.length; i++) {
+    var pair = vars[i].split("=");
+    // If first entry with this name
+    if (typeof query_string[pair[0]] === "undefined") {
+      query_string[pair[0]] = decodeURIComponent(pair[1]);
+      // If second entry with this name
+    } else if (typeof query_string[pair[0]] === "string") {
+      var arr = [query_string[pair[0]], decodeURIComponent(pair[1])];
+      query_string[pair[0]] = arr;
+      // If third or later entry with this name
+    } else {
+      query_string[pair[0]].push(decodeURIComponent(pair[1]));
+    }
+  }
+  return query_string;
+}
+
+setInterval(async fn => {
+  if(!web3 || !PlayerBook) return
+  if(!web3.eth.defaultAccount) return
+  if(parseInt(web3.eth.defaultAccount) == 0) return
+
+  let PID = await  (new Promise((res, rej) => PlayerBook.contract.pIDxAddr_(web3.eth.defaultAccount, (a, b) => { res(b) })  ))
+  let player = await (new Promise((res, rej) => PlayerBook.contract.plyr_(PID.toString(), (a, b) => { res(b) })  ))
+
+  if(player[0] == "0x0000000000000000000000000000000000000000") return
+  
+  $('.aff').show()
+  $('.aff code').text(`https://exitscam.me/${encodeURI(web3.toAscii(player[1])).replace(/%00/g, "")}`)
+  new ClipboardJS('button');
+}, 1000)
+</script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+		if (document.documentElement.clientWidth > 700){        
+			/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+			particlesJS.load('particles-js', 'js/particlesjs-config.json', function() {
+			  console.log('callback - particles.js config loaded');
+			})}
+			});
+			
+			
+    </script>
+  </body>
+</html>

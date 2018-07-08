@@ -1,0 +1,295 @@
+body {
+  background-color: #000000;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: radial-gradient(ellipse farthest-corner at center top, #23233f 0%, #000000 60%);
+  background-image: url(https://1nova.com/wallpapers/wp-content/uploads/sites/34/2015/02/Retro-80s-Arcade-Game.jpg);
+}
+.wrapper {
+  position:relative;
+  top:10vh;
+}
+.discord > a {
+  font-size: 10vh;
+  color: #d100b1;
+  display: block;
+  text-shadow: 0 0 1px #d100b1, 
+  0 -3px 3px rgba(255, 255, 255, 0.8), 
+  0 3px 3px rgba(0, 0, 0, 0.5), 
+  0 0 15px #d100b1, 
+  0 0 45px rgba(209, 0, 177, 0.8);
+  width: 100%;
+  z-index: 11;
+}
+.discord2 > a{
+  font-size: 5vh;
+  color: #d100b1;
+  display: block;
+  text-shadow: 0 0 1px #d100b1, 
+  0 -3px 3px rgba(255, 255, 255, 0.8), 
+  0 3px 3px rgba(0, 0, 0, 0.5), 
+  0 0 15px #d100b1, 
+  0 0 45px rgba(209, 0, 177, 0.8);
+  width: 100%;
+  z-index: 11;
+}
+.discord {
+  width: 852px;
+  position: absolute;
+  left:49%;
+  right:50%;
+  margin-left: -34px;
+  top:75vh;
+}
+.discord2 {
+  width: 852px;
+  position: absolute;
+  left:2%;
+  right:50%;
+  margin-left: -34px;
+  top:88vh;
+}
+.countdown{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.countdown > p{
+  font-size: 20px;
+  color: #d100b1;
+  display: block;
+  text-shadow: 0 0 1px #d100b1, 
+  0 3px 3px rgba(0, 0, 0, 0.5), 
+  0 0 15px #d100b1, 
+  0 0 45px rgba(209, 0, 177, 0.8);
+  width: 100%;
+  z-index: 11;
+}
+.wrapper > p {
+  color: #C6CBF5;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 80px;
+  font-weight: 1000;
+  line-height: 1.2;
+  left: 50%;
+  margin: 0;
+  margin-left: -420px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 852px;
+  z-index: 11;
+  background: -webkit-linear-gradient(top, #f0f, #C6CBF5 45%, black 45%, #E1A0CE 65%, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+h1 {
+  color: #C6CBF5;
+  font-family: 'Orbitron', sans-serif;
+  font-size: calc(4vh + 8vw);
+  font-weight: 1000;
+  line-height: 1.2;
+  left: 50%;
+  margin: 0;
+  margin-left: -50%;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+  z-index: 11;
+  background: -webkit-linear-gradient(top, #f0f, #C6CBF5 45%, black 45%, #E1A0CE 65%, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+
+h2 {
+  color: #d100b1;
+  display: block;
+  font-family: 'Yellowtail', cursive;
+  font-size: calc(8vh + 8vw);
+  margin-right: -8em;
+  position: absolute;
+  text-shadow: 0 0 1px #d100b1, 
+  0 -3px 3px rgba(255, 255, 255, 0.8), 
+  0 3px 3px rgba(0, 0, 0, 0.5), 
+  0 0 15px #d100b1, 
+  0 0 45px rgba(209, 0, 177, 0.8);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: none;
+  -webkit-transform: skew(-10deg) rotate(-10deg);
+  -ms-transform: skew(-10deg) rotate(-10deg);
+  transform: skew(-10deg) rotate(-10deg);
+  width: 100%;
+  z-index: 11;
+  top:10rem;
+}
+h3 {
+	font-size: calc(1vw + 2vh);
+}
+
+.logo-triangle {
+  -webkit-animation: dash 6s infinite alternate;
+  animation: dash 6s infinite alternate;
+  fill: url(#grad1);
+  -webkit-filter: url(#dropshadow);
+  filter: url(#dropshadow);
+  left: 50%;
+  margin-left: -200px;
+  top: 25%;
+  position: absolute;
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  top: 6vh;
+  z-index: 8;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.btn-purp {
+  color:white;
+  background-color: #f000f0;
+  box-shadow: 0 0 1px #d100b1, 
+  0 -3px 3px rgba(255, 255, 255, 0.8), 
+  0 3px 3px rgba(0, 0, 0, 0.5), 
+  0 0 15px #d100b1, 
+  0 0 45px rgba(209, 0, 177, 0.8);
+}
+.btn-purp:hover{
+  background-color: #ff4fff;
+  box-shadow: 0 0 2px #2b002b, 0 0 25px #c0c, 0 0 5px #f0f;
+  text-shadow: 0 0 2px #2b002b;
+  color:white;
+}
+.btn-outline-yel {
+  color:#e6ae49;
+  background-color: transparent;
+  border: 1px solid #e6ae49;
+}
+.btn-outline-yel:hover {
+  color:white;
+  background-color: #e6ae49;
+}
+.closemodal, .closemodal:hover {
+  color:white;
+}
+.yellowtext{
+	color:#e6ae49;
+}
+.jumbotron2 {
+ padding:1rem 1rem;
+ margin-bottom:1rem;
+ background-color:rgba(255, 255, 255, 0.85);
+ border-radius:.3rem;
+}
+.jumbotron3 {
+ padding:1rem 1rem;
+ margin-bottom:1rem;
+ margin-top:1rem;
+ background-color:rgba(255, 255, 255, 0.85);
+ border-radius:.3rem;
+}
+.jumbotron4 {
+ padding:2rem 1rem;
+ margin-bottom:2rem;
+ background-color:rgba(0, 0, 0, .05);
+ border-radius:.3rem
+}
+.jumbotron5 {
+ padding:2rem 1rem;
+ margin-bottom:2rem;
+ background-color:rgba(0, 0, 0, .35);
+ border-radius:.3rem
+}
+.hide {
+	width:0px;
+}
+.h1s {
+	color: white;
+	filter: drop-shadow(0 0 2px #2b002b) drop-shadow(0 0 10px #c0c) drop-shadow(0 0 5px #f0f);
+	-webkit-filter: drop-shadow(0 0 2px #2b002b) drop-shadow(0 0 10px #c0c) drop-shadow(0 0 5px #f0f);
+}
+.h1s-light {
+	color: white;
+	filter: drop-shadow(0 0 1px #2b002b) drop-shadow(0 0 2px #c0c) drop-shadow(0 0 1px #f0f);
+	-webkit-filter: drop-shadow(0 0 1px #2b002b) drop-shadow(0 0 2px #c0c) drop-shadow(0 0 1px #f0f);
+}
+.titlepopoutrightmini{
+   text-shadow: 1px 1px #9d009d, 
+                2px 2px #9d009d, 
+                3px 3px #9d009d;
+}
+
+.aff {
+    display:none;
+    margin-top:30px;
+    padding-top:10px;
+    padding-bottom:15px;
+    text-align: center;
+    color: white;
+    background:rgba(55,125,230,0.39);
+}
+
+.testnet {
+    margin-top: calc(20vh + 15vw) !important;
+	font-size: 10vh !important;
+}
+
+.aff code {
+  background: rgba(0,0,0,0.61);
+  padding-left:50px;
+  padding-right:50px;
+  font-size:calc(1vw + 2vh);
+}
+.smallscreenhide {
+	/* implying i have to put things in here */
+}
+@media (max-width: 50em) {
+.smallscreenhide {
+display:none;
+}
+}
+@media (max-width: 60em) {
+.testnet {
+display:none;
+}
+}
+@media (max-height: 50em) {
+.testnet {
+display:none;
+}}
+@media (max-height: 45em) {
+.logo-triangle  {
+display:none;
+}}
