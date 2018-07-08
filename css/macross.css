@@ -1,0 +1,95 @@
+    #win {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: rgb(0,128,131);
+    }
+
+    #taskbar {
+        height: 26px;
+        background-color: rgb(192,192,192);
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        border-top: ridge 2px white;
+    }
+
+    #start {
+		/* background-image: url("img/win9832x.png") left center no-repeat; */
+        background-size: 17px 15px;
+        text-align: right;
+        font-weight: bolder;
+        font-size: 12px;
+        float: left;
+        width: 52px;
+        height: 21px;
+        display: inline-block;
+        padding: 1px 2px;
+        margin-left: 2px;
+        cursor: default;
+        user-select: none;
+    }
+
+    #startMenu {
+        top: -363px;
+        left: -.3vh;
+        height: 240px;
+        /*! width: 164px; */
+        background-color: rgb(192,192,192);
+        position: absolute;
+        display: block;
+        border-top: ridge 3px white;
+        border-left: ridge 3px white;
+        border-bottom: ridge 2px black;
+        border-right: ridge 2px grey;
+    }
+
+        #startMenu #left {
+            width: 28px;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            bottom: 0px;
+            background-color: rgb(128,128,128);
+            font-family: Arial;
+            font-weight:900;
+            text-transform: capitalize;
+        }
+
+            #startMenu #left .b {
+                color: rgb(192,192,192);
+                transform: rotateZ(-90deg);
+                transform-origin: center left;
+                display: inline-block;
+                width: 200px;
+                white-space: nowrap;
+                font-size: 20px;
+                margin-top: 215px;
+                margin-left: 10px;
+            }
+
+            #startMenu #left .num95 {
+                font-weight: 100 !important;
+                color: white;
+            }
+
+    #notifications {
+        margin-right: 2px;
+        border-top: inset 2px grey;
+        border-left: inset 2px grey;
+        border-bottom: inset 2px white;
+        border-right: inset 2px white;
+        padding-top: 1px;
+        display: inline-block;
+        float: right;
+        width: 100px;
+    }
+    .divider{
+        height:1px;
+        border-top: ridge 1px white;
+        border-bottom: ridge 1px grey;
+        margin: 2px ;
+    }
