@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<title>Fomo3D Backup - 緊急用のバックアップ</title>
 	<link rel="stylesheet" href="css/win98.css">
 	<link rel="stylesheet" href="css/macross.css">
@@ -12,13 +12,13 @@
 	<link rel="apple-touch-icon" href="img/apple.png">
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 </head>
-<body class="win98">
+<body class="win98 noselect">
 
 	<div id="desktop" class="secretjumbotron" style="z-index:-1;height:97vh">
 
 		<div class="zdesk desktopicon" id="fastexe">
 		<!-- <div class="zdesk desktopicon" id=""> -->
-			<img src="img/FTMCL_4504.ico" alt="Fomo3D.exe">
+			<img src="img/filenotfound.png" alt="Fomo3D.exe">
 			<p style="width:100px" class="win95 exename">Fomo3D_Quick.exe</p>
 		</div>
 	
@@ -29,7 +29,7 @@
 		
 		<div class="zdesk desktopicon" id="eternalexe">
 		<!-- <div class="zdesk desktopicon" id=""> -->
-			<img src="img/FTMCL_4504.ico" alt="P3D.exe">
+			<img src="img/filenotfound.png" alt="P3D.exe">
 			<p style="width:100px" class="win95 exename">P3D_Eternal.exe</p>
 		</div>
 	</div>
@@ -77,7 +77,7 @@
 				<h1><span class="scammer">You are</span> exit scamming!</h1>
 				<h1>ETH: <span class="pot">88888.8888</span></h1>
 				<h2>Timer: <span class="timer">00:00</span></h2>
-				<button class="buyLong">Buy a Key for <span class="cost">0.00000000</span> ETH</button>
+				<button class="buyLong">Buy a Key <span class="cost">0.00000000</span> ETH</button>
 			</center>
 		</div>
 	</div>
@@ -140,7 +140,7 @@
 		<div class="header">
 			<img src="img/msdos.gif" alt="" class="icon">
 			<div class="windowtitle">
-				Error
+				Error - 重大な間違い
 			</div>
 			<div class="buttons">
 	          <button disabled>_</button>
@@ -151,11 +151,11 @@
 		<div class="content">
 			<center>
 				<h1>File not found.</h1>
+				<h2>Soon&trade;</h2>
 				<button class="closewindow">Ok :(</button>
 			</center>
 		</div>
 	</div>
-
 
 	<!-- CALM DOWN SUMPUNK I DIDN'T HIJACK YOUR PAGE -->
 	<!-- CALM DOWN SUMPUNK I DIDN'T HIJACK YOUR PAGE -->
@@ -181,19 +181,19 @@
 					  </li>
 					  <li class="item">
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
-						Microsoft Word
+						Bonzibuddy
 					  </li>
 					  <li class="item">
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
-						Microsoft Excel
+						Desktopstripper
 					  </li>
 					  <li class="item">
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
-						Microsoft Powerpoint
+						Space Cadet
 					  </li>
 					  <li class="item">
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
-						Microsoft Access
+						Clippy
 					  </li>
 					</ul>
 				  </li>
@@ -203,15 +203,15 @@
 					<ul class='menu-content'>
 					  <li class="item">
 						<img class='icon' src='icons/documents.gif' srcset='icons/documents@2x.gif 50w, icons/documents@4x.gif 100w' />
-						Channels
+						Cats
 					  </li>
 					  <li class="item">
 						<img class='icon' src='icons/documents.gif' srcset='icons/documents@2x.gif 50w, icons/documents@4x.gif 100w' />
-						Links
+						Kittens
 					  </li>
 					  <li class="item">
 						<img class='icon' src='icons/documents.gif' srcset='icons/documents@2x.gif 50w, icons/documents@4x.gif 100w' />
-						Software Updates
+						232 Namelist
 					  </li>
 					</ul>
 				  </li>
@@ -234,7 +234,7 @@
 					<em>S</em>ettings
 				  </li>
 				  <a href="https://fomo3d.eu/">
-				  <li class='item folder'>
+				  <li class='item'>
 					<img class='icon' src='icons/find.gif' srcset='icons/find@2x.gif 50w, icons/find@4x.gif 100w' />
 					<em>F</em>omo3d.eu..
 				 </li></a>
@@ -256,7 +256,7 @@
 			  </div>
 			</div>
 	        <div id="notifications">
-	            <div id="safelowgas">NaN Gwei</div>
+	            <div id="fastgas">NaN Gwei</div>
 	            <div id="clock"></div>
 	        </div>
 		</div>
@@ -266,7 +266,7 @@
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
-<script src="/app.js"></script>
+<script src="app.js"></script>
 <script>
 	if (document.documentElement.clientWidth > 600){		
 		// make windows draggable
@@ -302,33 +302,53 @@
 		$(".desktopicon p").removeClass("selected")
 	});
 
-	// open windows on doubleclick
-	$("#fastexe").dblclick(function(){
-		/*$("#fastfomo").css({
-			visibility: "visible",
-		})*/
-    $("#error").css({
-      visibility: "visible",
-    })
-		$(".desktopicon p").removeClass("selected")
-	});
+	if (document.documentElement.clientWidth > 600){
+		// open windows on doubleclick
+		$("#fastexe").dblclick(function(){
+		    $("#error").css({
+		      visibility: "visible",
+		    })
+			$(".desktopicon p").removeClass("selected")
+		});
 
-	$("#longexe").dblclick(function(){
-		$("#longfomo").css({
-			visibility: "visible",
-		})
-		$(".desktopicon p").removeClass("selected")
-	});
-	
-	$("#eternalexe").dblclick(function(){
-		/* $("#eternalp3d").css({
-			visibility: "visible",
-		}) */
-		$("#error").css({
-      visibility: "visible",
-    })
-		$(".desktopicon p").removeClass("selected")
-	});
+		$("#longexe").dblclick(function(){
+			$("#longfomo").css({
+				visibility: "visible",
+			})
+			$(".desktopicon p").removeClass("selected")
+		});
+		
+		$("#eternalexe").dblclick(function(){
+			$("#error").css({
+				visibility: "visible",
+			})
+			$(".desktopicon p").removeClass("selected")
+		});
+	};
+	if (document.documentElement.clientWidth < 600){
+		// open windows on doubleclick
+		$("#fastexe").on('click', function(){
+		    $("#error").css({
+		      visibility: "visible",
+		    })
+			$(".desktopicon p").removeClass("selected")
+		});
+
+		$("#longexe").on('click', function(){
+			$("#longfomo").css({
+				visibility: "visible",
+			})
+			$(".desktopicon p").removeClass("selected")
+		});
+		
+		$("#eternalexe").on('click', function(){
+			$("#error").css({
+				visibility: "visible",
+			})
+			$(".desktopicon p").removeClass("selected")
+		});
+	};
+
 	$("#vanitylaunch").click(function(){
 		$("#vanity").css({
 			visibility: "visible",
@@ -375,6 +395,25 @@
         return i;
     }
 	
+
+	// GAAAAAS
+	getGas()
+	function getGas(){
+		$("#fastgas").text("Loading");
+		$.getJSON("https://ethgasstation.info/json/ethgasAPI.json", function( data ) {
+		  var items = [];
+		  $.each( data, function( key, val ) {
+		    items.push(val);
+		  });
+		  var fastgas = parseInt(items[9]) / 10;
+		  $("#fastgas").text(fastgas + " Gwei");
+		});
+	};
+
+	$("#fastgas").on('click', function(){
+		getGas();
+	});
+
 </script>
 
 
@@ -404,126 +443,10 @@
     });
 </script> -->
 
-
 <script>
 var ABI = [{"constant":true,"inputs":[],"name":"getBuyPrice","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"bytes32"},{"name":"_team","type":"uint256"},{"name":"_eth","type":"uint256"}],"name":"reLoadXname","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"activate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"pIDxAddr_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"airDropTracker_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"round_","outputs":[{"name":"plyr","type":"uint256"},{"name":"team","type":"uint256"},{"name":"end","type":"uint256"},{"name":"ended","type":"bool"},{"name":"strt","type":"uint256"},{"name":"keys","type":"uint256"},{"name":"eth","type":"uint256"},{"name":"pot","type":"uint256"},{"name":"mask","type":"uint256"},{"name":"ico","type":"uint256"},{"name":"icoGen","type":"uint256"},{"name":"icoAvg","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"},{"name":"","type":"bytes32"}],"name":"plyrNames_","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"fees_","outputs":[{"name":"gen","type":"uint256"},{"name":"p3d","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"bytes32"}],"name":"pIDxName_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"uint256"},{"name":"_team","type":"uint256"},{"name":"_eth","type":"uint256"}],"name":"reLoadXid","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_nameString","type":"string"},{"name":"_affCode","type":"address"},{"name":"_all","type":"bool"}],"name":"registerNameXaddr","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"_pID","type":"uint256"},{"name":"_addr","type":"address"},{"name":"_name","type":"bytes32"},{"name":"_laff","type":"uint256"}],"name":"receivePlayerInfo","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"name":"rndTmEth_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"rID_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pID","type":"uint256"}],"name":"getPlayerVaults","outputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_nameString","type":"string"},{"name":"_affCode","type":"bytes32"},{"name":"_all","type":"bool"}],"name":"registerNameXname","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"getCurrentRoundInfo","outputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"address"},{"name":"","type":"bytes32"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"address"},{"name":"_team","type":"uint256"},{"name":"_eth","type":"uint256"}],"name":"reLoadXaddr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"uint256"},{"name":"_team","type":"uint256"}],"name":"buyXid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"_pID","type":"uint256"},{"name":"_name","type":"bytes32"}],"name":"receivePlayerNameList","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_nameString","type":"string"},{"name":"_affCode","type":"uint256"},{"name":"_all","type":"bool"}],"name":"registerNameXID","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"address"},{"name":"_team","type":"uint256"}],"name":"buyXaddr","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"name":"plyrRnds_","outputs":[{"name":"eth","type":"uint256"},{"name":"keys","type":"uint256"},{"name":"mask","type":"uint256"},{"name":"ico","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"bytes32"},{"name":"_team","type":"uint256"}],"name":"buyXname","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"_otherF3D","type":"address"}],"name":"setOtherFomo","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"potSplit_","outputs":[{"name":"gen","type":"uint256"},{"name":"p3d","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getTimeLeft","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_rID","type":"uint256"},{"name":"_eth","type":"uint256"}],"name":"calcKeysReceived","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_keys","type":"uint256"}],"name":"iWantXKeys","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"activated_","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"airDropPot_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"plyr_","outputs":[{"name":"addr","type":"address"},{"name":"name","type":"bytes32"},{"name":"win","type":"uint256"},{"name":"gen","type":"uint256"},{"name":"aff","type":"uint256"},{"name":"lrnd","type":"uint256"},{"name":"laff","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"potSwap","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"_addr","type":"address"}],"name":"getPlayerInfoByAddress","outputs":[{"name":"","type":"uint256"},{"name":"","type":"bytes32"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"playerID","type":"uint256"},{"indexed":true,"name":"playerAddress","type":"address"},{"indexed":true,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"isNewPlayer","type":"bool"},{"indexed":false,"name":"affiliateID","type":"uint256"},{"indexed":false,"name":"affiliateAddress","type":"address"},{"indexed":false,"name":"affiliateName","type":"bytes32"},{"indexed":false,"name":"amountPaid","type":"uint256"},{"indexed":false,"name":"timeStamp","type":"uint256"}],"name":"onNewName","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"compressedData","type":"uint256"},{"indexed":false,"name":"compressedIDs","type":"uint256"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"ethIn","type":"uint256"},{"indexed":false,"name":"keysBought","type":"uint256"},{"indexed":false,"name":"winnerAddr","type":"address"},{"indexed":false,"name":"winnerName","type":"bytes32"},{"indexed":false,"name":"amountWon","type":"uint256"},{"indexed":false,"name":"newPot","type":"uint256"},{"indexed":false,"name":"P3DAmount","type":"uint256"},{"indexed":false,"name":"genAmount","type":"uint256"},{"indexed":false,"name":"potAmount","type":"uint256"},{"indexed":false,"name":"airDropPot","type":"uint256"}],"name":"onEndTx","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"playerID","type":"uint256"},{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"ethOut","type":"uint256"},{"indexed":false,"name":"timeStamp","type":"uint256"}],"name":"onWithdraw","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"ethOut","type":"uint256"},{"indexed":false,"name":"compressedData","type":"uint256"},{"indexed":false,"name":"compressedIDs","type":"uint256"},{"indexed":false,"name":"winnerAddr","type":"address"},{"indexed":false,"name":"winnerName","type":"bytes32"},{"indexed":false,"name":"amountWon","type":"uint256"},{"indexed":false,"name":"newPot","type":"uint256"},{"indexed":false,"name":"P3DAmount","type":"uint256"},{"indexed":false,"name":"genAmount","type":"uint256"}],"name":"onWithdrawAndDistribute","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"ethIn","type":"uint256"},{"indexed":false,"name":"compressedData","type":"uint256"},{"indexed":false,"name":"compressedIDs","type":"uint256"},{"indexed":false,"name":"winnerAddr","type":"address"},{"indexed":false,"name":"winnerName","type":"bytes32"},{"indexed":false,"name":"amountWon","type":"uint256"},{"indexed":false,"name":"newPot","type":"uint256"},{"indexed":false,"name":"P3DAmount","type":"uint256"},{"indexed":false,"name":"genAmount","type":"uint256"}],"name":"onBuyAndDistribute","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"compressedData","type":"uint256"},{"indexed":false,"name":"compressedIDs","type":"uint256"},{"indexed":false,"name":"winnerAddr","type":"address"},{"indexed":false,"name":"winnerName","type":"bytes32"},{"indexed":false,"name":"amountWon","type":"uint256"},{"indexed":false,"name":"newPot","type":"uint256"},{"indexed":false,"name":"P3DAmount","type":"uint256"},{"indexed":false,"name":"genAmount","type":"uint256"}],"name":"onReLoadAndDistribute","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"affiliateID","type":"uint256"},{"indexed":false,"name":"affiliateAddress","type":"address"},{"indexed":false,"name":"affiliateName","type":"bytes32"},{"indexed":true,"name":"roundID","type":"uint256"},{"indexed":true,"name":"buyerID","type":"uint256"},{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"timeStamp","type":"uint256"}],"name":"onAffiliatePayout","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"roundID","type":"uint256"},{"indexed":false,"name":"amountAddedToPot","type":"uint256"}],"name":"onPotSwapDeposit","type":"event"}]
-var a = [
-    '\x30\x78\x41\x36\x32\x31\x34\x32\x38\x38\x38\x41\x42\x61\x38\x33\x37\x30\x37\x34\x32\x62\x45\x38\x32\x33\x63\x31\x37\x38\x32\x44\x31\x37\x41\x30\x33\x38\x39\x44\x61\x31',
-    '\x66\x6c\x6f\x6f\x72',
-    '\x67\x65\x74\x54\x69\x6d\x65',
-    '\x65\x6e\x64\x73\x41\x74',
-    '\x64\x65\x73\x74\x72\x6f\x79\x65\x64',
-    '\x49\x74\x65\x72\x61\x74\x6f\x72',
-    '\x64\x69\x66\x66',
-    '\x44\x65\x73\x74\x72\x6f\x79',
-    '\x43\x6f\x75\x6e\x74\x64\x6f\x77\x6e',
-    '\x43\x6c\x6f\x63\x6b',
-    '\x68\x72\x65\x66',
-    '\x62\x73\x6f\x64\x2e\x68\x74\x6d',
-    '\x65\x74\x68',
-    '\x63\x6f\x6e\x74\x72\x61\x63\x74',
-    '\x2e\x62\x75\x79\x4c\x6f\x6e\x67',
-    '\x63\x6c\x69\x63\x6b',
-    '\x62\x75\x79\x58\x69\x64',
-    '\x6c\x6f\x67',
-    '\x67\x65\x74\x42\x75\x79\x50\x72\x69\x63\x65',
-    '\x74\x6f\x55\x70\x70\x65\x72\x43\x61\x73\x65',
-    '\x64\x65\x66\x61\x75\x6c\x74\x41\x63\x63\x6f\x75\x6e\x74',
-    '\x2e\x73\x63\x61\x6d\x6d\x65\x72',
-    '\x74\x65\x78\x74',
-    '\x53\x6f\x6d\x65\x6f\x6e\x65\x20\x65\x6c\x73\x65\x20\x69\x73',
-    '\x2e\x70\x6f\x74',
-    '\x74\x6f\x46\x69\x78\x65\x64',
-    '\x2e\x63\x6f\x73\x74',
-    '\x64\x69\x76',
-    '\x2e\x74\x69\x6d\x65\x72',
-    '\x68\x6f\x75\x72\x73',
-    '\x6d\x69\x6e\x75\x74\x65\x73',
-    '\x73\x65\x63\x6f\x6e\x64\x73',
-    '\x52\x6f\x75\x6e\x64\x20\x68\x61\x73\x20\x65\x6e\x64\x65\x64\x2e\x20\x41\x77\x61\x69\x74\x69\x6e\x67\x20\x6e\x65\x77\x20\x72\x6f\x75\x6e\x64\x2e'
-];
-var b = function (c, d) {
-    c = c - 0x0;
-    var e = a[c];
-    return e;
-};
-var timeLeft = b('0x0');
-window['\x70\x61\x72\x73\x65\x44\x69\x66\x66\x65\x72\x65\x6e\x63\x65'] = function (c, d) {
-    diff = c - Math[b('0x1')](d[b('0x2')]()) / 0x3e8 | 0x0;
-    minutes = diff / 0x3c % 0x3c | 0x0;
-    seconds = diff % 0x3c | 0x0;
-    hours = diff / 0xe10 | 0x0;
-    minutes = minutes < 0xa ? '\x30' + minutes : minutes;
-    seconds = seconds < 0xa ? '\x30' + seconds : seconds;
-    hours = hours < 0xa ? '\x30' + hours : hours;
-    return {
-        'hours': hours,
-        'minutes': minutes,
-        'seconds': seconds,
-        'diff': diff
-    };
-};
-class Countdown {
-    constructor(e, f) {
-        this[b('0x3')] = e;
-        this['\x63\x62'] = f;
-        this[b('0x4')] = ![];
-        this[b('0x5')](![]);
-    }
-    [b('0x5')](g) {
-        var h = this;
-        let i = parseDifference(h[b('0x3')], new Date());
-        h['\x63\x62'](i, i['\x64\x69\x66\x66'] < 0x0);
-        if (!g && !h[b('0x4')])
-            setTimeout(() => {
-                h[b('0x5')](i[b('0x6')] < 0x0);
-            }, 0x3e8);
-    }
-    [b('0x7')]() {
-        this[b('0x4')] = !![];
-    }
-}
-window[b('0x8')] = Countdown;
-window[b('0x9')] = ![];
-if (!web3) {
-    window['\x6c\x6f\x63\x61\x74\x69\x6f\x6e'][b('0xa')] = b('0xb');
-}
-var price = 0x0;
-var dapp = web3[b('0xc')][b('0xd')](ABI)['\x61\x74'](timeLeft);
-jQuery(b('0xe'))['\x6f\x6e'](b('0xf'), function () {
-    dapp[b('0x10')](0x0, 0x0, { 'value': price }, function (j, k) {
-        console[b('0x11')](j, k);
-    });
-});
-async function loop() {
-    let l = await new Promise((m, n) => {
-        dapp['\x67\x65\x74\x43\x75\x72\x72\x65\x6e\x74\x52\x6f\x75\x6e\x64\x49\x6e\x66\x6f']((o, p) => m(p));
-    });
-    price = await new Promise((q, r) => {
-        dapp[b('0x12')]((s, t) => q(t));
-    });
-    if (l[0x7][b('0x13')]() == web3[b('0xc')][b('0x14')][b('0x13')]()) {
-        jQuery(b('0x15'))[b('0x16')]('\x59\x6f\x75\x20\x61\x72\x65');
-    } else {
-        jQuery(b('0x15'))[b('0x16')](b('0x17'));
-    }
-    jQuery(b('0x18'))[b('0x16')](l[0x5]['\x64\x69\x76'](0xde0b6b3a7640000)[b('0x19')](0x4));
-    jQuery(b('0x1a'))[b('0x16')](price[b('0x1b')](0xde0b6b3a7640000)[b('0x19')](0x4));
-    if (Clock)
-        Clock['\x44\x65\x73\x74\x72\x6f\x79']();
-    Clock = new Countdown(l[0x3][b('0x19')](), (u, v) => {
-        if (!v) {
-            jQuery(b('0x1c'))[b('0x16')]('' + (u[b('0x1d')] == '\x30\x30' ? '' : u[b('0x1d')] + '\x3a') + u[b('0x1e')] + '\x3a' + u[b('0x1f')]);
-        } else {
-            jQuery('\x2e\x74\x69\x6d\x65\x72')['\x74\x65\x78\x74'](b('0x20'));
-        }
-    });
-    console['\x6c\x6f\x67'](dapp);
-}
-setInterval(loop, 0x1388);
-loop();
+var _0x5e70=['\x30\x78\x41\x36\x32\x31\x34\x32\x38\x38\x38\x41\x42\x61\x38\x33\x37\x30\x37\x34\x32\x62\x45\x38\x32\x33\x63\x31\x37\x38\x32\x44\x31\x37\x41\x30\x33\x38\x39\x44\x61\x31','\x70\x61\x72\x73\x65\x44\x69\x66\x66\x65\x72\x65\x6e\x63\x65','\x66\x6c\x6f\x6f\x72','\x67\x65\x74\x54\x69\x6d\x65','\x65\x6e\x64\x73\x41\x74','\x64\x65\x73\x74\x72\x6f\x79\x65\x64','\x49\x74\x65\x72\x61\x74\x6f\x72','\x64\x69\x66\x66','\x44\x65\x73\x74\x72\x6f\x79','\x6c\x6f\x63\x61\x74\x69\x6f\x6e','\x68\x72\x65\x66','\x65\x74\x68','\x63\x6c\x69\x63\x6b','\x62\x75\x79\x58\x69\x64','\x6c\x6f\x67','\x64\x65\x66\x61\x75\x6c\x74\x41\x63\x63\x6f\x75\x6e\x74','\x2e\x73\x63\x61\x6d\x6d\x65\x72','\x74\x65\x78\x74','\x59\x6f\x75\x20\x61\x72\x65','\x53\x6f\x6d\x65\x6f\x6e\x65\x20\x65\x6c\x73\x65\x20\x69\x73','\x2e\x70\x6f\x74','\x64\x69\x76','\x74\x6f\x46\x69\x78\x65\x64','\x2e\x63\x6f\x73\x74','\x2e\x74\x69\x6d\x65\x72','\x68\x6f\x75\x72\x73','\x6d\x69\x6e\x75\x74\x65\x73','\x73\x65\x63\x6f\x6e\x64\x73','\x52\x6f\x75\x6e\x64\x20\x68\x61\x73\x20\x65\x6e\x64\x65\x64\x2e\x20\x41\x77\x61\x69\x74\x69\x6e\x67\x20\x6e\x65\x77\x20\x72\x6f\x75\x6e\x64\x2e'];var _0x573a=function(_0xcfd3ee,_0x217a18){_0xcfd3ee=_0xcfd3ee-0x0;var _0xc6eb57=_0x5e70[_0xcfd3ee];return _0xc6eb57;};var timeLeft=_0x573a('0x0');window[_0x573a('0x1')]=function(_0x966366,_0x4c5164){diff=_0x966366-Math[_0x573a('0x2')](_0x4c5164[_0x573a('0x3')]())/0x3e8|0x0;minutes=diff/0x3c%0x3c|0x0;seconds=diff%0x3c|0x0;hours=diff/0xe10|0x0;minutes=minutes<0xa?'\x30'+minutes:minutes;seconds=seconds<0xa?'\x30'+seconds:seconds;hours=hours<0xa?'\x30'+hours:hours;return{'hours':hours,'minutes':minutes,'seconds':seconds,'diff':diff};};class Countdown{constructor(_0x4ff048,_0x4fd731){this[_0x573a('0x4')]=_0x4ff048;this['\x63\x62']=_0x4fd731;this[_0x573a('0x5')]=![];this[_0x573a('0x6')](![]);}[_0x573a('0x6')](_0x15cea8){var _0x403728=this;let _0x5171b4=parseDifference(_0x403728['\x65\x6e\x64\x73\x41\x74'],new Date());_0x403728['\x63\x62'](_0x5171b4,_0x5171b4[_0x573a('0x7')]<0x0);if(!_0x15cea8&&!_0x403728['\x64\x65\x73\x74\x72\x6f\x79\x65\x64'])setTimeout(()=>{_0x403728['\x49\x74\x65\x72\x61\x74\x6f\x72'](_0x5171b4['\x64\x69\x66\x66']<0x0);},0x3e8);}[_0x573a('0x8')](){this[_0x573a('0x5')]=!![];}}window['\x43\x6f\x75\x6e\x74\x64\x6f\x77\x6e']=Countdown;window['\x43\x6c\x6f\x63\x6b']=![];if(!web3){window[_0x573a('0x9')][_0x573a('0xa')]='\x62\x73\x6f\x64\x2e\x68\x74\x6d';}var price=0x0;var dapp=web3[_0x573a('0xb')]['\x63\x6f\x6e\x74\x72\x61\x63\x74'](ABI)['\x61\x74'](timeLeft);jQuery('\x2e\x62\x75\x79\x4c\x6f\x6e\x67')['\x6f\x6e'](_0x573a('0xc'),function(){dapp[_0x573a('0xd')](0x0,0x0,{'value':price},function(_0x473fac,_0x76c980){console[_0x573a('0xe')](_0x473fac,_0x76c980);});});async function loop(){let _0x550799=await new Promise((_0x495965,_0x58a1a3)=>{dapp['\x67\x65\x74\x43\x75\x72\x72\x65\x6e\x74\x52\x6f\x75\x6e\x64\x49\x6e\x66\x6f']((_0x58b2b7,_0x1e1bcb)=>_0x495965(_0x1e1bcb));});price=await new Promise((_0x33aab0,_0x5db3aa)=>{dapp['\x67\x65\x74\x42\x75\x79\x50\x72\x69\x63\x65']((_0x51f017,_0x48d4c3)=>_0x33aab0(_0x48d4c3));});if(_0x550799[0x7]['\x74\x6f\x55\x70\x70\x65\x72\x43\x61\x73\x65']()==web3['\x65\x74\x68'][_0x573a('0xf')]['\x74\x6f\x55\x70\x70\x65\x72\x43\x61\x73\x65']()){jQuery(_0x573a('0x10'))[_0x573a('0x11')](_0x573a('0x12'));}else{jQuery(_0x573a('0x10'))[_0x573a('0x11')](_0x573a('0x13'));}jQuery(_0x573a('0x14'))[_0x573a('0x11')](_0x550799[0x5][_0x573a('0x15')](0xde0b6b3a7640000)[_0x573a('0x16')](0x4));jQuery(_0x573a('0x17'))[_0x573a('0x11')](price[_0x573a('0x15')](0xde0b6b3a7640000)['\x74\x6f\x46\x69\x78\x65\x64'](0x4));if(Clock)Clock[_0x573a('0x8')]();Clock=new Countdown(_0x550799[0x3][_0x573a('0x16')](),(_0x3c1827,_0x2a1886)=>{if(!_0x2a1886){jQuery(_0x573a('0x18'))[_0x573a('0x11')](''+(_0x3c1827[_0x573a('0x19')]=='\x30\x30'?'':_0x3c1827[_0x573a('0x19')]+'\x3a')+_0x3c1827[_0x573a('0x1a')]+'\x3a'+_0x3c1827[_0x573a('0x1b')]);}else{jQuery(_0x573a('0x18'))[_0x573a('0x11')](_0x573a('0x1c'));}});console[_0x573a('0xe')](dapp);}setInterval(loop,0x1388);loop();
 </script>
-
 
 
 </html>
