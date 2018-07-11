@@ -78,6 +78,14 @@
 				<h1>ETH: <span class="pot">88888.8888</span></h1>
 				<h2>Timer: <span class="timer">00:00</span></h2>
 				<button class="buyLong">Buy a Key <span class="cost">0.00000000</span> ETH</button>
+				<!--
+				<br>
+				<button class="buyLongx10">Buy 5 Minutes <span class="costx10">0.00000000</span> ETH</button>
+				<br>
+				<button class="buyLong">1 Hour <span class="costx120">0.00000000</span> ETH</button>
+				<br>
+				<button class="buyLong">Sleep (8 Hours)<span class="costx960">0.00000000</span> ETH</button> 
+				-->
 			</center>
 		</div>
 	</div>
@@ -130,7 +138,38 @@
 					<li>No special characters</li>
 					<li>No more than one space between characters</li>
 				</ul>
-				<button class="">Buy this name for <span class="cost">0.01</span> ETH</button>
+				<button class="buyName">Buy this name for 0.01 ETH</button>
+			</center>
+		</div>
+	</div>
+
+	<!-- team just roadmap -->
+	<div class="window ztop interface roadmap center" id="roadmap" style="visibility:hidden;">
+		<div class="header">
+			<img src="icons/txt.gif"" srcset="icons/txt@2x.gif 32w, icons/txt@4x.gif 64w" alt="" class="icon">
+			<div class="windowtitle">
+				JUSTPad - TeamJUSTRoadmap.txt
+			</div>
+			<div class="buttons">
+	          <button disabled>_</button>
+	          <button disabled>&#9634;</button>
+	          <button class="close">&times;</button>
+	        </div>
+		</div>
+		<div class="content">
+			<center>
+				<h1>Register a name</h1>
+				<input type="text" name="vanityname" id="vanityname"><br>
+				<p>Rules:</p>
+				<ul>
+					<li>Must be unique (<a href="https://fomo3d.eu">check here</a>)</li>
+					<li>32 characters or less</li>
+					<li>A-Z (upper and lowercase)</li>
+					<li>Name cannot be <em>just</em> numbers, but may contain numbers</li>
+					<li>No special characters</li>
+					<li>No more than one space between characters</li>
+				</ul>
+				<button class="buyName">Buy this name for 0.01 ETH</button>
 			</center>
 		</div>
 	</div>
@@ -155,6 +194,11 @@
 				<button class="closewindow">Ok :(</button>
 			</center>
 		</div>
+	</div>
+
+	<!-- seggsi stribbers :-DDDDD -->
+	<div class="ztop interface" id="stribbergirl" style="display:none;">
+		<img src="img/seksistrib_anim.gif" alt="oh fugg :-DDDD t. dolan">
 	</div>
 
 	<!-- CALM DOWN SUMPUNK I DIDN'T HIJACK YOUR PAGE -->
@@ -183,7 +227,7 @@
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
 						Bonzibuddy
 					  </li>
-					  <li class="item">
+					  <li class="item" id="stribbers">
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
 						Desktopstripper
 					  </li>
@@ -348,6 +392,19 @@
 			$(".desktopicon p").removeClass("selected")
 		});
 	};
+
+	$("#stribbers").click(function(){
+		$("#stribbergirl").fadeIn("slow").animate({
+			top: -330
+		}, 500);
+		$('#startMenu').hide();
+        $('#start').removeClass('startClick').addClass('startRest');
+	});
+	$("#stribbergirl").click(function(){
+		$("#stribbergirl").fadeOut("slow").animate({
+			top: 0
+		}, 500);
+	});
 
 	$("#vanitylaunch").click(function(){
 		$("#vanity").css({
