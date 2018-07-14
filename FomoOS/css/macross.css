@@ -56,7 +56,7 @@
     border-left: ridge 3px white;
     border-bottom: ridge 2px black;
     border-right: ridge 2px grey;
-    z-index:20;
+    z-index:50;
 }
 
     #startMenu #left {

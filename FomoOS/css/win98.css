@@ -43,6 +43,7 @@ a:hover {
   cursor: default!important;
 }
 .win98 .window .content {
+  position: relative;
   padding: 7px 10px;
 }
 .win98 .window .content ul li a {
@@ -300,6 +301,88 @@ a:hover {
   background-color: ;
 }
 
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; 
+}
+
+#terminalView {
+  height:400px;
+  width:650px;
+  background-color: black;
+  color: #8e8e8e;
+  font-family: "Lucida Console", Monaco, monospace;
+  overflow-y:auto;
+}
+#commandLine {
+  padding-left:0!important;
+  width:100%;
+}
+#commandLine li.intro {
+  white-space: pre-wrap;
+}
+#commandLine li {
+  list-style:none;
+}
+#commandLine input {
+  border: none!important;
+  box-shadow: none!important;
+  color: #8e8e8e;
+  background-color: black;
+  width: 70%;
+}
+#commandLine input:focus {
+  outline-width:0;
+}
+#commandLine .error {
+  color: red;
+}
+#commandLine .good {
+  color: green;
+}
+#terminal.window {
+  width: auto!important;
+}
+
+#terminal .content, 
+#roadmap .content,
+#seedkeys .content,
+#webbrowser .content{
+  padding:0!important;
+}
+
+#roadmapText, #seedText {
+  outline: none;
+  width: 98.5%;
+  height: 100%;
+  resize: none;
+}
+
+#webbrowser.window {
+  width:90%;
+  height:90%;
+}
+#webbrowser .content {
+  width:100%;
+  height:100%;
+}
+#webbrowser .addressbar {
+  width:100%;
+}
+#browserTarget {
+  width: 100%;
+  height:100%;
+}
+#url {
+  width:83%;
+}
+#visit {
+  width:10%;
+}
+
+
 /* *{cursor:none;} */
 /* .trail */
 /* { */
@@ -349,6 +432,10 @@ a:hover {
     top:30vh;
     left:50vw;
   }
+  .browserwindow {
+    top:1vh;
+    left:3vw;
+  }
 }
 
 @media only screen and (max-width:600px){
@@ -358,7 +445,7 @@ a:hover {
     left: 50vw;
     transform: translate(-50%, -50%);
   }
-  .win98 .window {
+  .win98 .window{
     width:100%;
     height: 100%;
   }

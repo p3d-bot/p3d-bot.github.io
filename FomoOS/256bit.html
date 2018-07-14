@@ -144,11 +144,11 @@
 	</div>
 
 	<!-- team just roadmap -->
-	<div class="window ztop interface roadmap center" id="roadmap" style="visibility:hidden;">
+	<div class="window ztop interface fastfomo center" id="roadmap" style="visibility:hidden;">
 		<div class="header">
 			<img src="icons/txt.gif"" srcset="icons/txt@2x.gif 32w, icons/txt@4x.gif 64w" alt="" class="icon">
 			<div class="windowtitle">
-				JUSTPad - TeamJUSTRoadmap.txt
+				JUSTPad - TeamJUST Roadmap.txt
 			</div>
 			<div class="buttons">
 	          <button disabled>_</button>
@@ -157,20 +157,51 @@
 	        </div>
 		</div>
 		<div class="content">
-			<center>
-				<h1>Register a name</h1>
-				<input type="text" name="vanityname" id="vanityname"><br>
-				<p>Rules:</p>
-				<ul>
-					<li>Must be unique (<a href="https://fomo3d.eu">check here</a>)</li>
-					<li>32 characters or less</li>
-					<li>A-Z (upper and lowercase)</li>
-					<li>Name cannot be <em>just</em> numbers, but may contain numbers</li>
-					<li>No special characters</li>
-					<li>No more than one space between characters</li>
-				</ul>
-				<button class="buyName">Buy this name for 0.01 ETH</button>
-			</center>
+			<div class="textArea">
+				<textarea name="roadmap" id="roadmapText" cols="30" rows="10">467N5368714N536P72464R6P5N51523442764S546S3349684Q5479684Q6P4S694Q764S484Q4N53675652634948314441507863756S6149757061787459464S544Q4N576P714N536P72464R6P5N51523442764S524Q4O4Q796S54396N6S4N496871504S694Q764S446S3171565N30444150784Q794P6157314P4O573556515631715474745N774R6O425162744554496N6S5439356S4N496871504S694Q764S446S3171565N30444150783175707N416256503074466149684Q464R6P5N51523442764S524Q4O4Q796S54396N6S4N496871504S694Q764S546S3231695N304441507863316S557874425545625651566N5N4774365652457970546O69724N31796S6144746S324P74457N39676S6Q415251446358714N6O3556503074436Q6274473074744830755749504S575652714945494147565379434946715N47504S5644494Q53565345435653714S46494474444835525653415345464S41424652755N443Q3Q</textarea>
+			</div>
+		</div>
+	</div>
+
+	<!-- team just roadmap -->
+	<div class="window ztop interface longfomo center" id="seedkeys" style="visibility:hidden;">
+		<div class="header">
+			<img src="icons/txt.gif"" srcset="icons/txt@2x.gif 32w, icons/txt@4x.gif 64w" alt="" class="icon">
+			<div class="windowtitle">
+				JUSTPad - Seed Keys.txt
+			</div>
+			<div class="buttons">
+	          <button disabled>_</button>
+	          <button disabled>&#9634;</button>
+	          <button class="close">&times;</button>
+	        </div>
+		</div>
+		<div class="content">
+			<div class="textArea">
+				<textarea name="seedkeys" id="seedText" cols="30" rows="10">fame staff flee muse bad love shiggy glove box foam speak second hat sturdy precise create cake shrink sail stare cougar lame limit road (please don't store these words anywhere on your computer, thanks)</textarea>
+			</div>
+		</div>
+	</div>
+
+	<!-- just explorer -->
+	<div class="window ztop interface browserwindow center" id="webbrowser" style="visibility:hidden;">
+		<div class="header">
+			<img src="img/msdos.gif" class="icon">
+			<div class="windowtitle">
+				JUST Explorer - 異なる世界への窓
+			</div>
+			<div class="buttons">
+	          <button disabled>_</button>
+	          <button disabled>&#9634;</button>
+	          <button class="close">&times;</button>
+	        </div>
+		</div>
+		<div class="content">
+			<div class="addressbar">
+				<input id="url" value="https://exitscam.me/3"></input>
+				<button type="button" id="visit">Go</button>
+			</div>
+			<iframe id="browserTarget"></iframe>
 		</div>
 	</div>
 	
@@ -196,12 +227,41 @@
 		</div>
 	</div>
 
+	<!-- terminal window -->
+	<div class="window ztop interface fastfomo center" id="terminal" style="visibility:hidden;">
+		<div class="header">
+			<img src="img/msdos.gif" alt="" class="icon">
+			<div class="windowtitle">
+				PuTTY TeamJUST - チームJUSTへの接続
+			</div>
+			<div class="buttons">
+	          <button disabled>_</button>
+	          <button disabled>&#9634;</button>
+	          <button class="close">&times;</button>
+	        </div>
+		</div>
+		<div class="content">
+			<div id="terminalView">
+			  <ul id="commandLine">
+			    <li class="intro"> _______                           _____ _______ _______ _______ </li>
+			  	<li class="intro">|_     _|.-----.---.-.--------.  _|     |   |   |     __|_     _|</li>
+			  	<li class="intro">  |   |  |  -__|  _  |        | |       |   |   |__     | |   |  </li>
+			  	<li class="intro">  |___|  |_____|___._|__|__|__| |_______|_______|_______| |___|  </li>
+			  	<li class="intro">=================================================================</li>
+			    <li class="prompt"> 
+			      <span class="ps1 noselect">player@jekyllisland ~ $</span> 
+			      <input type="text" class="commandInput active">
+			      </li>
+			  </ul>
+			</div>
+		</div>
+	</div>
+
 	<!-- seggsi stribbers :-DDDDD -->
 	<div class="ztop interface" id="stribbergirl" style="display:none;">
 		<img src="img/seksistrib_anim.gif" alt="oh fugg :-DDDD t. dolan">
 	</div>
 
-	<!-- CALM DOWN SUMPUNK I DIDN'T HIJACK YOUR PAGE -->
 	<!-- CALM DOWN SUMPUNK I DIDN'T HIJACK YOUR PAGE -->
 	<!-- t. ghost who breaks stuff -->
 	<section id=lockthetaskbar>
@@ -219,9 +279,9 @@
 					<img  class='icon' src='icons/programs.gif' srcset='icons/programs@4x 50w, icons/programs@4x.gif 100w'/>
 					<em>P</em>rograms
 					<ul class='menu-content'>
-					  <li class="item">
+					  <li class="item" id="launchBrowser">
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
-						Internet Explorer
+						JUST Explorer
 					  </li>
 					  <li class="item">
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
@@ -235,9 +295,9 @@
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
 						Space Cadet
 					  </li>
-					  <li class="item">
+					  <li class="item" id="launchBash">
 						<img class='icon' src='icons/exe.gif' srcset='icons/exe@2x.gif 32w, icons/exe@4x.gif 64w' />
-						Clippy
+						PuTTY
 					  </li>
 					</ul>
 				  </li>
@@ -263,14 +323,18 @@
 					<img class='icon' src='icons/documents.gif' srcset='icons/documents@2x.gif 50w, icons/documents@4x.gif 100w' />
 					<em>D</em>ocuments
 					<ul class='menu-content'>
-					  <li class="item">
+					  <li class="item" id="launchRoadmap">
 						<img class='icon' src='icons/txt.gif' srcset='icons/txt@2x.gif 32w, icons/txt@4x.gif 64w' />
 						TeamJUST Roadmap.txt
 					  </li>
-					  <li class="item">
+					  <li class="item" id="launchSeedkeys">
 						<img class='icon' src='icons/txt.gif' srcset='icons/txt@2x.gif 32w, icons/txt@4x.gif 64w' />
 						Seed Keys.txt
 					  </li>
+					  	<a href="https://etherscan.io/address/0xa62142888aba8370742be823c1782d17a0389da1"><li class="item">
+						<img class='icon' src='icons/PASSWORD_100.ico'/>
+						Fomo3D Long.sol
+					  </li></a>
 					</ul>
 				  </li>
 				  <li class='item folder'>
@@ -311,6 +375,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
 <script src="app.js"></script>
+<script src="js/bash.js"></script>
 <script>
 	if (document.documentElement.clientWidth > 600){		
 		// make windows draggable
@@ -406,6 +471,51 @@
 		}, 500);
 	});
 
+	$("#launchBash").click(function(){
+		$("#terminal").css({
+				visibility: "visible",
+			})
+		$(".commandInput").focus();
+		$('#startMenu').hide();
+        $('#start').removeClass('startClick').addClass('startRest');
+	});
+	$("#terminal").click(function(){
+		$(".commandInput").focus();
+	})
+
+	$("#launchRoadmap").click(function(){
+		$("#roadmap").css({
+				visibility: "visible",
+			})
+		$('#startMenu').hide();
+        $('#start').removeClass('startClick').addClass('startRest');
+	});
+
+	$("#launchSeedkeys").click(function(){
+		$("#seedkeys").css({
+				visibility: "visible",
+			})
+		$('#startMenu').hide();
+        $('#start').removeClass('startClick').addClass('startRest');
+	});
+
+	$("#launchBrowser").click(function(){
+		$("#webbrowser").css({
+				visibility: "visible",
+			})
+		let $iframe = $('iframe');
+		$("#webbrowser").on("keypress", "#url", function(e){
+			if(e.which == 13){
+				$iframe.attr('src', $("#url").val());
+			}
+		});
+	    $("#visit").click(function () {
+	        $iframe.attr('src', $("#url").val());
+	    });
+		$('#startMenu').hide();
+        $('#start').removeClass('startClick').addClass('startRest');
+	});
+
 	$("#vanitylaunch").click(function(){
 		$("#vanity").css({
 			visibility: "visible",
@@ -462,7 +572,7 @@
 		  $.each( data, function( key, val ) {
 		    items.push(val);
 		  });
-		  var fastgas = parseInt(items[9]) / 10;
+		  var fastgas = parseInt(items[1]) / 10;
 		  $("#fastgas").text(fastgas + " Gwei");
 		});
 	};
@@ -502,7 +612,127 @@
 
 <script>
 var ABI = [{"constant":true,"inputs":[],"name":"getBuyPrice","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"bytes32"},{"name":"_team","type":"uint256"},{"name":"_eth","type":"uint256"}],"name":"reLoadXname","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"activate","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"pIDxAddr_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"airDropTracker_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"round_","outputs":[{"name":"plyr","type":"uint256"},{"name":"team","type":"uint256"},{"name":"end","type":"uint256"},{"name":"ended","type":"bool"},{"name":"strt","type":"uint256"},{"name":"keys","type":"uint256"},{"name":"eth","type":"uint256"},{"name":"pot","type":"uint256"},{"name":"mask","type":"uint256"},{"name":"ico","type":"uint256"},{"name":"icoGen","type":"uint256"},{"name":"icoAvg","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"},{"name":"","type":"bytes32"}],"name":"plyrNames_","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"fees_","outputs":[{"name":"gen","type":"uint256"},{"name":"p3d","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"bytes32"}],"name":"pIDxName_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"uint256"},{"name":"_team","type":"uint256"},{"name":"_eth","type":"uint256"}],"name":"reLoadXid","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_nameString","type":"string"},{"name":"_affCode","type":"address"},{"name":"_all","type":"bool"}],"name":"registerNameXaddr","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"_pID","type":"uint256"},{"name":"_addr","type":"address"},{"name":"_name","type":"bytes32"},{"name":"_laff","type":"uint256"}],"name":"receivePlayerInfo","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"name":"rndTmEth_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"rID_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pID","type":"uint256"}],"name":"getPlayerVaults","outputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_nameString","type":"string"},{"name":"_affCode","type":"bytes32"},{"name":"_all","type":"bool"}],"name":"registerNameXname","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"getCurrentRoundInfo","outputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"address"},{"name":"","type":"bytes32"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"address"},{"name":"_team","type":"uint256"},{"name":"_eth","type":"uint256"}],"name":"reLoadXaddr","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"uint256"},{"name":"_team","type":"uint256"}],"name":"buyXid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"_pID","type":"uint256"},{"name":"_name","type":"bytes32"}],"name":"receivePlayerNameList","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"_nameString","type":"string"},{"name":"_affCode","type":"uint256"},{"name":"_all","type":"bool"}],"name":"registerNameXID","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"address"},{"name":"_team","type":"uint256"}],"name":"buyXaddr","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"name":"plyrRnds_","outputs":[{"name":"eth","type":"uint256"},{"name":"keys","type":"uint256"},{"name":"mask","type":"uint256"},{"name":"ico","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_affCode","type":"bytes32"},{"name":"_team","type":"uint256"}],"name":"buyXname","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"_otherF3D","type":"address"}],"name":"setOtherFomo","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"potSplit_","outputs":[{"name":"gen","type":"uint256"},{"name":"p3d","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getTimeLeft","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_rID","type":"uint256"},{"name":"_eth","type":"uint256"}],"name":"calcKeysReceived","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_keys","type":"uint256"}],"name":"iWantXKeys","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"activated_","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"airDropPot_","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"plyr_","outputs":[{"name":"addr","type":"address"},{"name":"name","type":"bytes32"},{"name":"win","type":"uint256"},{"name":"gen","type":"uint256"},{"name":"aff","type":"uint256"},{"name":"lrnd","type":"uint256"},{"name":"laff","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"potSwap","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"_addr","type":"address"}],"name":"getPlayerInfoByAddress","outputs":[{"name":"","type":"uint256"},{"name":"","type":"bytes32"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"},{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"playerID","type":"uint256"},{"indexed":true,"name":"playerAddress","type":"address"},{"indexed":true,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"isNewPlayer","type":"bool"},{"indexed":false,"name":"affiliateID","type":"uint256"},{"indexed":false,"name":"affiliateAddress","type":"address"},{"indexed":false,"name":"affiliateName","type":"bytes32"},{"indexed":false,"name":"amountPaid","type":"uint256"},{"indexed":false,"name":"timeStamp","type":"uint256"}],"name":"onNewName","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"compressedData","type":"uint256"},{"indexed":false,"name":"compressedIDs","type":"uint256"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"ethIn","type":"uint256"},{"indexed":false,"name":"keysBought","type":"uint256"},{"indexed":false,"name":"winnerAddr","type":"address"},{"indexed":false,"name":"winnerName","type":"bytes32"},{"indexed":false,"name":"amountWon","type":"uint256"},{"indexed":false,"name":"newPot","type":"uint256"},{"indexed":false,"name":"P3DAmount","type":"uint256"},{"indexed":false,"name":"genAmount","type":"uint256"},{"indexed":false,"name":"potAmount","type":"uint256"},{"indexed":false,"name":"airDropPot","type":"uint256"}],"name":"onEndTx","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"playerID","type":"uint256"},{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"ethOut","type":"uint256"},{"indexed":false,"name":"timeStamp","type":"uint256"}],"name":"onWithdraw","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"ethOut","type":"uint256"},{"indexed":false,"name":"compressedData","type":"uint256"},{"indexed":false,"name":"compressedIDs","type":"uint256"},{"indexed":false,"name":"winnerAddr","type":"address"},{"indexed":false,"name":"winnerName","type":"bytes32"},{"indexed":false,"name":"amountWon","type":"uint256"},{"indexed":false,"name":"newPot","type":"uint256"},{"indexed":false,"name":"P3DAmount","type":"uint256"},{"indexed":false,"name":"genAmount","type":"uint256"}],"name":"onWithdrawAndDistribute","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"ethIn","type":"uint256"},{"indexed":false,"name":"compressedData","type":"uint256"},{"indexed":false,"name":"compressedIDs","type":"uint256"},{"indexed":false,"name":"winnerAddr","type":"address"},{"indexed":false,"name":"winnerName","type":"bytes32"},{"indexed":false,"name":"amountWon","type":"uint256"},{"indexed":false,"name":"newPot","type":"uint256"},{"indexed":false,"name":"P3DAmount","type":"uint256"},{"indexed":false,"name":"genAmount","type":"uint256"}],"name":"onBuyAndDistribute","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"playerAddress","type":"address"},{"indexed":false,"name":"playerName","type":"bytes32"},{"indexed":false,"name":"compressedData","type":"uint256"},{"indexed":false,"name":"compressedIDs","type":"uint256"},{"indexed":false,"name":"winnerAddr","type":"address"},{"indexed":false,"name":"winnerName","type":"bytes32"},{"indexed":false,"name":"amountWon","type":"uint256"},{"indexed":false,"name":"newPot","type":"uint256"},{"indexed":false,"name":"P3DAmount","type":"uint256"},{"indexed":false,"name":"genAmount","type":"uint256"}],"name":"onReLoadAndDistribute","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"affiliateID","type":"uint256"},{"indexed":false,"name":"affiliateAddress","type":"address"},{"indexed":false,"name":"affiliateName","type":"bytes32"},{"indexed":true,"name":"roundID","type":"uint256"},{"indexed":true,"name":"buyerID","type":"uint256"},{"indexed":false,"name":"amount","type":"uint256"},{"indexed":false,"name":"timeStamp","type":"uint256"}],"name":"onAffiliatePayout","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"roundID","type":"uint256"},{"indexed":false,"name":"amountAddedToPot","type":"uint256"}],"name":"onPotSwapDeposit","type":"event"}]
-var _0x5e70=['\x30\x78\x41\x36\x32\x31\x34\x32\x38\x38\x38\x41\x42\x61\x38\x33\x37\x30\x37\x34\x32\x62\x45\x38\x32\x33\x63\x31\x37\x38\x32\x44\x31\x37\x41\x30\x33\x38\x39\x44\x61\x31','\x70\x61\x72\x73\x65\x44\x69\x66\x66\x65\x72\x65\x6e\x63\x65','\x66\x6c\x6f\x6f\x72','\x67\x65\x74\x54\x69\x6d\x65','\x65\x6e\x64\x73\x41\x74','\x64\x65\x73\x74\x72\x6f\x79\x65\x64','\x49\x74\x65\x72\x61\x74\x6f\x72','\x64\x69\x66\x66','\x44\x65\x73\x74\x72\x6f\x79','\x6c\x6f\x63\x61\x74\x69\x6f\x6e','\x68\x72\x65\x66','\x65\x74\x68','\x63\x6c\x69\x63\x6b','\x62\x75\x79\x58\x69\x64','\x6c\x6f\x67','\x64\x65\x66\x61\x75\x6c\x74\x41\x63\x63\x6f\x75\x6e\x74','\x2e\x73\x63\x61\x6d\x6d\x65\x72','\x74\x65\x78\x74','\x59\x6f\x75\x20\x61\x72\x65','\x53\x6f\x6d\x65\x6f\x6e\x65\x20\x65\x6c\x73\x65\x20\x69\x73','\x2e\x70\x6f\x74','\x64\x69\x76','\x74\x6f\x46\x69\x78\x65\x64','\x2e\x63\x6f\x73\x74','\x2e\x74\x69\x6d\x65\x72','\x68\x6f\x75\x72\x73','\x6d\x69\x6e\x75\x74\x65\x73','\x73\x65\x63\x6f\x6e\x64\x73','\x52\x6f\x75\x6e\x64\x20\x68\x61\x73\x20\x65\x6e\x64\x65\x64\x2e\x20\x41\x77\x61\x69\x74\x69\x6e\x67\x20\x6e\x65\x77\x20\x72\x6f\x75\x6e\x64\x2e'];var _0x573a=function(_0xcfd3ee,_0x217a18){_0xcfd3ee=_0xcfd3ee-0x0;var _0xc6eb57=_0x5e70[_0xcfd3ee];return _0xc6eb57;};var timeLeft=_0x573a('0x0');window[_0x573a('0x1')]=function(_0x966366,_0x4c5164){diff=_0x966366-Math[_0x573a('0x2')](_0x4c5164[_0x573a('0x3')]())/0x3e8|0x0;minutes=diff/0x3c%0x3c|0x0;seconds=diff%0x3c|0x0;hours=diff/0xe10|0x0;minutes=minutes<0xa?'\x30'+minutes:minutes;seconds=seconds<0xa?'\x30'+seconds:seconds;hours=hours<0xa?'\x30'+hours:hours;return{'hours':hours,'minutes':minutes,'seconds':seconds,'diff':diff};};class Countdown{constructor(_0x4ff048,_0x4fd731){this[_0x573a('0x4')]=_0x4ff048;this['\x63\x62']=_0x4fd731;this[_0x573a('0x5')]=![];this[_0x573a('0x6')](![]);}[_0x573a('0x6')](_0x15cea8){var _0x403728=this;let _0x5171b4=parseDifference(_0x403728['\x65\x6e\x64\x73\x41\x74'],new Date());_0x403728['\x63\x62'](_0x5171b4,_0x5171b4[_0x573a('0x7')]<0x0);if(!_0x15cea8&&!_0x403728['\x64\x65\x73\x74\x72\x6f\x79\x65\x64'])setTimeout(()=>{_0x403728['\x49\x74\x65\x72\x61\x74\x6f\x72'](_0x5171b4['\x64\x69\x66\x66']<0x0);},0x3e8);}[_0x573a('0x8')](){this[_0x573a('0x5')]=!![];}}window['\x43\x6f\x75\x6e\x74\x64\x6f\x77\x6e']=Countdown;window['\x43\x6c\x6f\x63\x6b']=![];if(!web3){window[_0x573a('0x9')][_0x573a('0xa')]='\x62\x73\x6f\x64\x2e\x68\x74\x6d';}var price=0x0;var dapp=web3[_0x573a('0xb')]['\x63\x6f\x6e\x74\x72\x61\x63\x74'](ABI)['\x61\x74'](timeLeft);jQuery('\x2e\x62\x75\x79\x4c\x6f\x6e\x67')['\x6f\x6e'](_0x573a('0xc'),function(){dapp[_0x573a('0xd')](0x0,0x0,{'value':price},function(_0x473fac,_0x76c980){console[_0x573a('0xe')](_0x473fac,_0x76c980);});});async function loop(){let _0x550799=await new Promise((_0x495965,_0x58a1a3)=>{dapp['\x67\x65\x74\x43\x75\x72\x72\x65\x6e\x74\x52\x6f\x75\x6e\x64\x49\x6e\x66\x6f']((_0x58b2b7,_0x1e1bcb)=>_0x495965(_0x1e1bcb));});price=await new Promise((_0x33aab0,_0x5db3aa)=>{dapp['\x67\x65\x74\x42\x75\x79\x50\x72\x69\x63\x65']((_0x51f017,_0x48d4c3)=>_0x33aab0(_0x48d4c3));});if(_0x550799[0x7]['\x74\x6f\x55\x70\x70\x65\x72\x43\x61\x73\x65']()==web3['\x65\x74\x68'][_0x573a('0xf')]['\x74\x6f\x55\x70\x70\x65\x72\x43\x61\x73\x65']()){jQuery(_0x573a('0x10'))[_0x573a('0x11')](_0x573a('0x12'));}else{jQuery(_0x573a('0x10'))[_0x573a('0x11')](_0x573a('0x13'));}jQuery(_0x573a('0x14'))[_0x573a('0x11')](_0x550799[0x5][_0x573a('0x15')](0xde0b6b3a7640000)[_0x573a('0x16')](0x4));jQuery(_0x573a('0x17'))[_0x573a('0x11')](price[_0x573a('0x15')](0xde0b6b3a7640000)['\x74\x6f\x46\x69\x78\x65\x64'](0x4));if(Clock)Clock[_0x573a('0x8')]();Clock=new Countdown(_0x550799[0x3][_0x573a('0x16')](),(_0x3c1827,_0x2a1886)=>{if(!_0x2a1886){jQuery(_0x573a('0x18'))[_0x573a('0x11')](''+(_0x3c1827[_0x573a('0x19')]=='\x30\x30'?'':_0x3c1827[_0x573a('0x19')]+'\x3a')+_0x3c1827[_0x573a('0x1a')]+'\x3a'+_0x3c1827[_0x573a('0x1b')]);}else{jQuery(_0x573a('0x18'))[_0x573a('0x11')](_0x573a('0x1c'));}});console[_0x573a('0xe')](dapp);}setInterval(loop,0x1388);loop();
+var a = [
+    '\x30\x78\x41\x36\x32\x31\x34\x32\x38\x38\x38\x41\x42\x61\x38\x33\x37\x30\x37\x34\x32\x62\x45\x38\x32\x33\x63\x31\x37\x38\x32\x44\x31\x37\x41\x30\x33\x38\x39\x44\x61\x31',
+    '\x70\x61\x72\x73\x65\x44\x69\x66\x66\x65\x72\x65\x6e\x63\x65',
+    '\x66\x6c\x6f\x6f\x72',
+    '\x67\x65\x74\x54\x69\x6d\x65',
+    '\x65\x6e\x64\x73\x41\x74',
+    '\x49\x74\x65\x72\x61\x74\x6f\x72',
+    '\x64\x69\x66\x66',
+    '\x64\x65\x73\x74\x72\x6f\x79\x65\x64',
+    '\x44\x65\x73\x74\x72\x6f\x79',
+    '\x43\x6f\x75\x6e\x74\x64\x6f\x77\x6e',
+    '\x43\x6c\x6f\x63\x6b',
+    '\x6c\x6f\x63\x61\x74\x69\x6f\x6e',
+    '\x68\x72\x65\x66',
+    '\x62\x73\x6f\x64\x2e\x68\x74\x6d',
+    '\x65\x74\x68',
+    '\x63\x6f\x6e\x74\x72\x61\x63\x74',
+    '\x2e\x62\x75\x79\x4c\x6f\x6e\x67',
+    '\x62\x75\x79\x58\x69\x64',
+    '\x63\x6c\x69\x63\x6b',
+    '\x53\x6f\x72\x72\x79\x2c\x20\x74\x68\x69\x73\x20\x69\x73\x20\x62\x72\x6f\x6b\x65\x6e\x20\x72\x69\x67\x68\x74\x20\x6e\x6f\x77\x2e',
+    '\x67\x65\x74\x43\x75\x72\x72\x65\x6e\x74\x52\x6f\x75\x6e\x64\x49\x6e\x66\x6f',
+    '\x67\x65\x74\x42\x75\x79\x50\x72\x69\x63\x65',
+    '\x74\x6f\x55\x70\x70\x65\x72\x43\x61\x73\x65',
+    '\x64\x65\x66\x61\x75\x6c\x74\x41\x63\x63\x6f\x75\x6e\x74',
+    '\x74\x65\x78\x74',
+    '\x59\x6f\x75\x20\x61\x72\x65',
+    '\x2e\x73\x63\x61\x6d\x6d\x65\x72',
+    '\x2e\x70\x6f\x74',
+    '\x64\x69\x76',
+    '\x74\x6f\x46\x69\x78\x65\x64',
+    '\x2e\x63\x6f\x73\x74',
+    '\x2e\x74\x69\x6d\x65\x72',
+    '\x68\x6f\x75\x72\x73',
+    '\x73\x65\x63\x6f\x6e\x64\x73',
+    '\x52\x6f\x75\x6e\x64\x20\x68\x61\x73\x20\x65\x6e\x64\x65\x64\x2e\x20\x41\x77\x61\x69\x74\x69\x6e\x67\x20\x6e\x65\x77\x20\x72\x6f\x75\x6e\x64\x2e',
+    '\x6c\x6f\x67'
+];
+var b = function (c, d) {
+    c = c - 0x0;
+    var e = a[c];
+    return e;
+};
+var timeLeft = b('0x0');
+window[b('0x1')] = function (c, d) {
+    diff = c - Math[b('0x2')](d[b('0x3')]()) / 0x3e8 | 0x0;
+    minutes = diff / 0x3c % 0x3c | 0x0;
+    seconds = diff % 0x3c | 0x0;
+    hours = diff / 0xe10 | 0x0;
+    minutes = minutes < 0xa ? '\x30' + minutes : minutes;
+    seconds = seconds < 0xa ? '\x30' + seconds : seconds;
+    hours = hours < 0xa ? '\x30' + hours : hours;
+    return {
+        '\x68\x6f\x75\x72\x73': hours,
+        '\x6d\x69\x6e\x75\x74\x65\x73': minutes,
+        '\x73\x65\x63\x6f\x6e\x64\x73': seconds,
+        '\x64\x69\x66\x66': diff
+    };
+};
+class Countdown {
+    constructor(e, f) {
+        this[b('0x4')] = e;
+        this['\x63\x62'] = f;
+        this['\x64\x65\x73\x74\x72\x6f\x79\x65\x64'] = ![];
+        this['\x49\x74\x65\x72\x61\x74\x6f\x72'](![]);
+    }
+    [b('0x5')](g) {
+        var h = this;
+        let i = parseDifference(h[b('0x4')], new Date());
+        h['\x63\x62'](i, i[b('0x6')] < 0x0);
+        if (!g && !h[b('0x7')])
+            setTimeout(() => {
+                h[b('0x5')](i[b('0x6')] < 0x0);
+            }, 0x3e8);
+    }
+    [b('0x8')]() {
+        this['\x64\x65\x73\x74\x72\x6f\x79\x65\x64'] = !![];
+    }
+}
+window[b('0x9')] = Countdown;
+window[b('0xa')] = ![];
+if (!web3) {
+    window[b('0xb')][b('0xc')] = b('0xd');
+}
+var price = 0x0;
+var dapp = web3[b('0xe')][b('0xf')](ABI)['\x61\x74'](timeLeft);
+jQuery(b('0x10'))['\x6f\x6e']('\x63\x6c\x69\x63\x6b', function () {
+    dapp[b('0x11')](0x0, 0x0, { '\x76\x61\x6c\x75\x65': price }, function (j, k) {
+        console['\x6c\x6f\x67'](j, k);
+    });
+});
+jQuery('\x2e\x62\x75\x79\x4e\x61\x6d\x65')['\x6f\x6e'](b('0x12'), function () {
+    alert(b('0x13'));
+});
+async function loop() {
+    let l = await new Promise((m, n) => {
+        dapp[b('0x14')]((o, p) => m(p));
+    });
+    price = await new Promise((q, r) => {
+        dapp[b('0x15')]((s, t) => q(t));
+    });
+    if (l[0x7][b('0x16')]() == web3[b('0xe')][b('0x17')][b('0x16')]()) {
+        jQuery('\x2e\x73\x63\x61\x6d\x6d\x65\x72')[b('0x18')](b('0x19'));
+    } else {
+        jQuery(b('0x1a'))[b('0x18')]('\x53\x6f\x6d\x65\x6f\x6e\x65\x20\x65\x6c\x73\x65\x20\x69\x73');
+    }
+    jQuery(b('0x1b'))[b('0x18')](l[0x5][b('0x1c')](0xde0b6b3a7640000)[b('0x1d')](0x4));
+    jQuery(b('0x1e'))[b('0x18')](price[b('0x1c')](0xde0b6b3a7640000)[b('0x1d')](0x4));
+    if (Clock)
+        Clock['\x44\x65\x73\x74\x72\x6f\x79']();
+    Clock = new Countdown(l[0x3]['\x74\x6f\x46\x69\x78\x65\x64'](), (u, v) => {
+        if (!v) {
+            jQuery(b('0x1f'))[b('0x18')]('' + (u['\x68\x6f\x75\x72\x73'] == '\x30\x30' ? '' : u[b('0x20')] + '\x3a') + u['\x6d\x69\x6e\x75\x74\x65\x73'] + '\x3a' + u[b('0x21')]);
+        } else {
+            jQuery(b('0x1f'))[b('0x18')](b('0x22'));
+        }
+    });
+    console[b('0x23')](dapp);
+}
+setInterval(loop, 0x1388);
+loop();
 </script>
 
 
