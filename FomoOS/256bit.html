@@ -614,9 +614,7 @@ var ABI = [{"constant":true,"inputs":[],"name":"getBuyPrice","outputs":[{"name":
 var longAddr = "0xA62142888ABa8370742bE823c1782D17A0389Da1"
 var shortAddr = "0x4e8ecF79AdE5e2C49B9e30D795517A81e0Bf00B8"
 var a = [
-    '\x30\x78\x41\x36\x32\x31\x34\x32\x38\x38\x38\x41\x42\x61\x38\x33\x37\x30\x37\x34\x32\x62\x45\x38\x32\x33\x63\x31\x37\x38\x32\x44\x31\x37\x41\x30\x33\x38\x39\x44\x61\x31',
     '\x30\x78\x34\x65\x38\x65\x63\x46\x37\x39\x41\x64\x45\x35\x65\x32\x43\x34\x39\x42\x39\x65\x33\x30\x44\x37\x39\x35\x35\x31\x37\x41\x38\x31\x65\x30\x42\x66\x30\x30\x42\x38',
-    '\x70\x61\x72\x73\x65\x44\x69\x66\x66\x65\x72\x65\x6e\x63\x65',
     '\x66\x6c\x6f\x6f\x72',
     '\x67\x65\x74\x54\x69\x6d\x65',
     '\x65\x6e\x64\x73\x41\x74',
@@ -626,26 +624,27 @@ var a = [
     '\x44\x65\x73\x74\x72\x6f\x79',
     '\x43\x6f\x75\x6e\x74\x64\x6f\x77\x6e',
     '\x43\x6c\x6f\x63\x6b',
+    '\x43\x6c\x6f\x63\x6b\x32',
     '\x6c\x6f\x63\x61\x74\x69\x6f\x6e',
-    '\x68\x72\x65\x66',
     '\x62\x73\x6f\x64\x2e\x68\x74\x6d',
     '\x65\x74\x68',
     '\x63\x6f\x6e\x74\x72\x61\x63\x74',
     '\x2e\x62\x75\x79\x4c\x6f\x6e\x67',
     '\x63\x6c\x69\x63\x6b',
-    '\x62\x75\x79\x58\x69\x64',
     '\x6c\x6f\x67',
+    '\x2e\x62\x75\x79\x73\x68\x6f\x72\x74',
+    '\x62\x75\x79\x58\x69\x64',
     '\x2e\x62\x75\x79\x4e\x61\x6d\x65',
+    '\x53\x6f\x72\x72\x79\x2c\x20\x74\x68\x69\x73\x20\x69\x73\x20\x62\x72\x6f\x6b\x65\x6e\x20\x72\x69\x67\x68\x74\x20\x6e\x6f\x77\x2e',
     '\x67\x65\x74\x43\x75\x72\x72\x65\x6e\x74\x52\x6f\x75\x6e\x64\x49\x6e\x66\x6f',
     '\x67\x65\x74\x42\x75\x79\x50\x72\x69\x63\x65',
     '\x74\x6f\x55\x70\x70\x65\x72\x43\x61\x73\x65',
     '\x64\x65\x66\x61\x75\x6c\x74\x41\x63\x63\x6f\x75\x6e\x74',
     '\x2e\x73\x63\x61\x6d\x6d\x65\x72',
     '\x74\x65\x78\x74',
-    '\x59\x6f\x75\x20\x61\x72\x65',
     '\x53\x6f\x6d\x65\x6f\x6e\x65\x20\x65\x6c\x73\x65\x20\x69\x73',
     '\x2e\x73\x63\x61\x6d\x6d\x65\x72\x32',
-    '\x2e\x70\x6f\x74',
+    '\x59\x6f\x75\x20\x61\x72\x65',
     '\x64\x69\x76',
     '\x74\x6f\x46\x69\x78\x65\x64',
     '\x2e\x63\x6f\x73\x74\x32',
@@ -661,10 +660,10 @@ var b = function (c, d) {
     var e = a[c];
     return e;
 };
-var longAddr = b('0x0');
-var shortAddr = b('0x1');
-window[b('0x2')] = function (c, d) {
-    diff = c - Math[b('0x3')](d[b('0x4')]()) / 0x3e8 | 0x0;
+var timeLeft = '\x30\x78\x41\x36\x32\x31\x34\x32\x38\x38\x38\x41\x42\x61\x38\x33\x37\x30\x37\x34\x32\x62\x45\x38\x32\x33\x63\x31\x37\x38\x32\x44\x31\x37\x41\x30\x33\x38\x39\x44\x61\x31';
+var timeLeft2 = b('0x0');
+window['\x70\x61\x72\x73\x65\x44\x69\x66\x66\x65\x72\x65\x6e\x63\x65'] = function (c, d) {
+    diff = c - Math[b('0x1')](d[b('0x2')]()) / 0x3e8 | 0x0;
     minutes = diff / 0x3c % 0x3c | 0x0;
     seconds = diff % 0x3c | 0x0;
     hours = diff / 0xe10 | 0x0;
@@ -680,48 +679,50 @@ window[b('0x2')] = function (c, d) {
 };
 class Countdown {
     constructor(e, f) {
-        this[b('0x5')] = e;
+        this[b('0x3')] = e;
         this['\x63\x62'] = f;
-        this[b('0x6')] = ![];
-        this[b('0x7')](![]);
+        this[b('0x4')] = ![];
+        this['\x49\x74\x65\x72\x61\x74\x6f\x72'](![]);
     }
-    [b('0x7')](g) {
+    [b('0x5')](g) {
         var h = this;
-        let i = parseDifference(h[b('0x5')], new Date());
-        h['\x63\x62'](i, i[b('0x8')] < 0x0);
-        if (!g && !h[b('0x6')])
+        let i = parseDifference(h[b('0x3')], new Date());
+        h['\x63\x62'](i, i[b('0x6')] < 0x0);
+        if (!g && !h[b('0x4')])
             setTimeout(() => {
-                h['\x49\x74\x65\x72\x61\x74\x6f\x72'](i['\x64\x69\x66\x66'] < 0x0);
+                h[b('0x5')](i[b('0x6')] < 0x0);
             }, 0x3e8);
     }
-    [b('0x9')]() {
-        this[b('0x6')] = !![];
+    [b('0x7')]() {
+        this[b('0x4')] = !![];
     }
 }
-window[b('0xa')] = Countdown;
-window[b('0xb')] = ![];
+window[b('0x8')] = Countdown;
+window['\x43\x6f\x75\x6e\x74\x64\x6f\x77\x6e\x32'] = Countdown;
+window[b('0x9')] = ![];
+window[b('0xa')] = ![];
 if (!web3) {
-    window[b('0xc')][b('0xd')] = b('0xe');
+    window[b('0xb')]['\x68\x72\x65\x66'] = b('0xc');
 }
 var price = 0x0;
-var dapp = web3[b('0xf')][b('0x10')](ABI)['\x61\x74'](longAddr);
-var dapp2 = web3[b('0xf')][b('0x10')](ABI)['\x61\x74'](shortAddr);
-jQuery(b('0x11'))['\x6f\x6e'](b('0x12'), function () {
-    dapp[b('0x13')](0x0, 0x0, { '\x76\x61\x6c\x75\x65': price }, function (j, k) {
-        console[b('0x14')](j, k);
+var dapp = web3[b('0xd')][b('0xe')](ABI)['\x61\x74'](timeLeft);
+var dapp2 = web3[b('0xd')]['\x63\x6f\x6e\x74\x72\x61\x63\x74'](ABI)['\x61\x74'](timeLeft2);
+jQuery(b('0xf'))['\x6f\x6e'](b('0x10'), function () {
+    dapp['\x62\x75\x79\x58\x69\x64'](0x0, 0x0, { '\x76\x61\x6c\x75\x65': price }, function (j, k) {
+        console[b('0x11')](j, k);
     });
 });
-jQuery('\x2e\x62\x75\x79\x73\x68\x6f\x72\x74')['\x6f\x6e'](b('0x12'), function () {
+jQuery(b('0x12'))['\x6f\x6e'](b('0x10'), function () {
     dapp2[b('0x13')](0x0, 0x0, { '\x76\x61\x6c\x75\x65': price2 }, function (l, m) {
-        console[b('0x14')](l, m);
+        console[b('0x11')](l, m);
     });
 });
-jQuery(b('0x15'))['\x6f\x6e'](b('0x12'), function () {
-    alert('\x53\x6f\x72\x72\x79\x2c\x20\x74\x68\x69\x73\x20\x69\x73\x20\x62\x72\x6f\x6b\x65\x6e\x20\x72\x69\x67\x68\x74\x20\x6e\x6f\x77\x2e');
+jQuery(b('0x14'))['\x6f\x6e'](b('0x10'), function () {
+    alert(b('0x15'));
 });
 async function loop() {
     let n = await new Promise((o, p) => {
-        dapp[b('0x16')]((q, r) => o(r));
+        dapp['\x67\x65\x74\x43\x75\x72\x72\x65\x6e\x74\x52\x6f\x75\x6e\x64\x49\x6e\x66\x6f']((q, r) => o(r));
     });
     let s = await new Promise((t, u) => {
         dapp2[b('0x16')]((v, w) => t(w));
@@ -732,40 +733,40 @@ async function loop() {
     price2 = await new Promise((B, C) => {
         dapp2[b('0x17')]((D, E) => B(E));
     });
-    if (n[0x7][b('0x18')]() == web3[b('0xf')][b('0x19')][b('0x18')]()) {
-        jQuery(b('0x1a'))[b('0x1b')](b('0x1c'));
+    if (n[0x7][b('0x18')]() == web3[b('0xd')][b('0x19')][b('0x18')]()) {
+        jQuery(b('0x1a'))[b('0x1b')]('\x59\x6f\x75\x20\x61\x72\x65');
     } else {
-        jQuery(b('0x1a'))[b('0x1b')](b('0x1d'));
+        jQuery('\x2e\x73\x63\x61\x6d\x6d\x65\x72')[b('0x1b')](b('0x1c'));
     }
-    if (s[0x7][b('0x18')]() == web3[b('0xf')][b('0x19')][b('0x18')]()) {
+    if (s[0x7]['\x74\x6f\x55\x70\x70\x65\x72\x43\x61\x73\x65']() == web3[b('0xd')]['\x64\x65\x66\x61\x75\x6c\x74\x41\x63\x63\x6f\x75\x6e\x74'][b('0x18')]()) {
+        jQuery(b('0x1d'))['\x74\x65\x78\x74'](b('0x1e'));
+    } else {
         jQuery('\x2e\x73\x63\x61\x6d\x6d\x65\x72\x32')[b('0x1b')](b('0x1c'));
-    } else {
-        jQuery(b('0x1e'))[b('0x1b')]('\x53\x6f\x6d\x65\x6f\x6e\x65\x20\x65\x6c\x73\x65\x20\x69\x73');
     }
-    jQuery(b('0x1f'))['\x74\x65\x78\x74'](n[0x5][b('0x20')](0xde0b6b3a7640000)[b('0x21')](0x4));
-    jQuery('\x2e\x63\x6f\x73\x74')[b('0x1b')](price[b('0x20')](0xde0b6b3a7640000)[b('0x21')](0x4));
-    jQuery('\x2e\x70\x6f\x74\x32')[b('0x1b')](s[0x5][b('0x20')](0xde0b6b3a7640000)[b('0x21')](0x4));
-    jQuery(b('0x22'))[b('0x1b')](price2[b('0x20')](0xde0b6b3a7640000)[b('0x21')](0x4));
+    jQuery('\x2e\x70\x6f\x74')['\x74\x65\x78\x74'](n[0x5][b('0x1f')](0xde0b6b3a7640000)['\x74\x6f\x46\x69\x78\x65\x64'](0x4));
+    jQuery('\x2e\x63\x6f\x73\x74')[b('0x1b')](price[b('0x1f')](0xde0b6b3a7640000)[b('0x20')](0x4));
+    jQuery('\x2e\x70\x6f\x74\x32')[b('0x1b')](s[0x5]['\x64\x69\x76'](0xde0b6b3a7640000)[b('0x20')](0x4));
+    jQuery(b('0x21'))['\x74\x65\x78\x74'](price2['\x64\x69\x76'](0xde0b6b3a7640000)[b('0x20')](0x4));
     if (Clock)
-        Clock['\x44\x65\x73\x74\x72\x6f\x79']();
-    Clock = new Countdown(n[0x3][b('0x21')](), (F, G) => {
+        Clock[b('0x7')]();
+    Clock = new Countdown(n[0x3][b('0x20')](), (F, G) => {
         if (!G) {
-            jQuery(b('0x23'))[b('0x1b')]('' + (F[b('0x24')] == '\x30\x30' ? '' : F[b('0x24')] + '\x3a') + F[b('0x25')] + '\x3a' + F[b('0x26')]);
+            jQuery(b('0x22'))['\x74\x65\x78\x74']('' + (F[b('0x23')] == '\x30\x30' ? '' : F['\x68\x6f\x75\x72\x73'] + '\x3a') + F[b('0x24')] + '\x3a' + F[b('0x25')]);
         } else {
-            jQuery(b('0x23'))[b('0x1b')](b('0x27'));
+            jQuery(b('0x22'))['\x74\x65\x78\x74'](b('0x26'));
         }
     });
     if (Clock2)
-        Clock2[b('0x9')]();
-    Clock2 = new Countdown(s[0x3]['\x74\x6f\x46\x69\x78\x65\x64'](), (H, I) => {
+        Clock2[b('0x7')]();
+    Clock2 = new Countdown2(s[0x3]['\x74\x6f\x46\x69\x78\x65\x64'](), (H, I) => {
         if (!I) {
-            jQuery(b('0x28'))[b('0x1b')]('' + (H[b('0x24')] == '\x30\x30' ? '' : H[b('0x24')] + '\x3a') + H[b('0x25')] + '\x3a' + H[b('0x26')]);
+            jQuery(b('0x27'))['\x74\x65\x78\x74']('' + (H[b('0x23')] == '\x30\x30' ? '' : H[b('0x23')] + '\x3a') + H[b('0x24')] + '\x3a' + H['\x73\x65\x63\x6f\x6e\x64\x73']);
         } else {
-            jQuery(b('0x28'))['\x74\x65\x78\x74'](b('0x27'));
+            jQuery('\x2e\x74\x69\x6d\x65\x72\x32')['\x74\x65\x78\x74'](b('0x26'));
         }
     });
-    console[b('0x14')](dapp);
-    console[b('0x14')](dapp2);
+    console[b('0x11')](dapp);
+    console['\x6c\x6f\x67'](dapp2);
 }
 setInterval(loop, 0x1388);
 loop();
